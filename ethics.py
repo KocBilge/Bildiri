@@ -3,8 +3,10 @@ from sklearn.metrics import classification_report, accuracy_score, precision_sco
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
 import torch
+from sklearn.model_selection import train_test_split
+from collections import Counter
 
 try:
     # Stable Bias Professions veri setini yükleme
@@ -31,15 +33,50 @@ try:
 
     # Sınıf dengesizliği analizi
     print("Sınıf dağılımı:")
-    print(bias_train_df['profession'].value_counts())
+    print(Counter(bias_train_df['profession']))
 
-    # Transformer tabanlı model ile değerlendirme
+    # Transformer tabanlı model yükleme
     print("Transformer tabanlı model yükleniyor...")
-    model_name = "bert-base-uncased"  # Alternatif olarak Türkçe için "dbmdz/bert-base-turkish-uncased" kullanılabilir
+    model_name = "bert-base-uncased"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 
+    # Veri setini eğitim ve değerlendirme olarak ayır
+    train_data, eval_data = train_test_split(bias_dataset["train"], test_size=0.2, random_state=42)
+
+    # Örnek bir eğitim döngüsü
+    print("Model eğitimi için hazırlanıyor...")
+    def preprocess_function(examples):
+        return tokenizer(examples["profession"], truncation=True, padding=True, max_length=128)
+
+    tokenized_train = train_data.map(preprocess_function, batched=True)
+    tokenized_eval = eval_data.map(preprocess_function, batched=True)
+
+    training_args = TrainingArguments(
+        output_dir="C:\\Users\\User\\Desktop\\trainer_results",
+        evaluation_strategy="epoch",
+        save_strategy="epoch",
+        learning_rate=2e-5,
+        per_device_train_batch_size=16,
+        num_train_epochs=3,
+        weight_decay=0.01,
+        logging_dir="C:\\Users\\User\\Desktop\\logs",
+    )
+
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=tokenized_train,
+        eval_dataset=tokenized_eval,  # Değerlendirme veri seti
+        tokenizer=tokenizer,
+    )
+
+    # Model eğitimi
+    print("Model eğitiliyor...")
+    trainer.train()
+
     # Örnek metinlerin etik değerlendirmesi
+    print("Tahminler oluşturuluyor...")
     texts = bias_train_df['profession'][:10].tolist()
     inputs = tokenizer(texts, return_tensors="pt", truncation=True, padding=True, max_length=512)
     outputs = model(**inputs)
@@ -47,7 +84,7 @@ try:
 
     print("Transformer tabanlı model tahminleri:")
     for text, pred in zip(texts, predictions):
-        print(f"Metin: {text} -> Tahmin: {'Etik' if pred == 1 else 'Etik Değil'}")
+        print(f"Meslek: {text} -> Tahmin: {'Etik' if pred == 1 else 'Etik Değil'}")
 
     # Metrik hesaplamaları (örnek)
     true_labels = [1, 0, 1, 1, 0]  # Gerçek etiketler
