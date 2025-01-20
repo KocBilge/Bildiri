@@ -1,0 +1,1403 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "hznm-uizi",
+      "name" : "AmeriCorps Research Grantee Dataset",
+      "assetType" : "dataset",
+      "attribution" : "AmeriCorps",
+      "averageRating" : 0,
+      "category" : "National Service",
+      "createdAt" : 1703087267,
+      "description" : "The AmeriCorps Office of Research and Evaluation provides grants to researchers, scholars, and dissertators at institutions of higher education, enabling them to engage in comprehensive studies on civic engagement, volunteering, and national service. Studies include a variety of populations and ranges from local to organizational, and national contexts throughout the United States. \n\nThis AmeriCorps Research Grantee dataset provides comprehensive information about the grantees and their studies. For each award, we identify the: 1) study title; 2) background; 3) cohort year; 4) principal investigators and their affiliated university; 5) study location(s) associated with each grant; 6) civic engagement topic areas; and 7) the research approach. Please be aware that there may be multiple rows corresponding to a single research grantee study, reflecting the various study sites where the grantee is actively involved. \n\nEach study was thematically coded to identify their civic engagement topic areas. An individual study can be categorized into more than one group. The topic areas include: \n•\tArts & Culture, \n•\tCommunity Development, \n•\tEducation Across the Life Course, \n•\tYouth Development, \n•\tEnvironment and Climate Change, \n•\tHealth & Social Wellbeing,\n•\tImmigrants, Immigration & Refugees, \n•\tEconomic Opportunity and Employment, \n•\tSocial Equity, \n•\tSenior Development, and \n•\tVolunteering, Nonprofit Studies, and National Service.  \n\nAdditionally, the research grantees’ studies were categorized into two distinct research approaches: traditional research and participatory research.\n\nTo learn more about the studies’ civic engagement topic areas and research approaches, please refer to the AmeriCorps Research Grantee Data Dictionary under Attachments.\n\nFor up-to-date information surrounding the AmeriCorps Research Grantees please see:\n•\tWhat is a Research Grant? https://americorps.gov/sites/default/files/document/What%20is%20a%20Research%20Grant_053023_final_508.pdf\n•\tAmeriCorps Research Grantee Activities and Insights: https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles\n•\tParticipatory Research: https://americorps.gov/sites/default/files/document/2021_07_20_ParticipatoryResearchOnePager_ORE.pdf",
+      "displayType" : "table",
+      "domainCName" : "data.americorps.gov",
+      "downloadCount" : 505,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 40467238,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1710357583,
+      "publicationGroup" : 19403738,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1716399867,
+      "rowsUpdatedBy" : "jdh9-rsxp",
+      "tableId" : 19475014,
+      "totalTimesRated" : 0,
+      "viewCount" : 7086,
+      "viewLastModified" : 1716399849,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1704810328,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 6214411,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1704729985,
+        "targetAudience" : "public",
+        "workflowId" : 3400,
+        "reviewer" : {
+          "id" : "p2v6-v3m4",
+          "displayName" : "Taqwa Abdur-Rashid"
+        },
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1704810328,
+          "failureCount" : 0,
+          "startedAt" : 1704810328,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "4k33-7rhe",
+          "displayName" : "Rosa Johnson"
+        }
+      }, {
+        "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+        "state" : "unsubmittable",
+        "targetAudience" : "internal",
+        "workflowId" : 4720
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 590508781,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "description" : "Grantee Cohort Year",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529991,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "2023",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2022",
+            "count" : "30"
+          }, {
+            "item" : "2018",
+            "count" : "19"
+          }, {
+            "item" : "2017",
+            "count" : "13"
+          }, {
+            "item" : "2015",
+            "count" : "12"
+          }, {
+            "item" : "2023",
+            "count" : "6"
+          } ],
+          "smallest" : "2015",
+          "count" : "80",
+          "cardinality" : "5"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 590508782,
+        "name" : "University",
+        "dataTypeName" : "text",
+        "description" : "Affiliated University with Grant",
+        "fieldName" : "university",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529990,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Virginia Tech - Virginia Polytechnic Institute and State University",
+          "null" : "0",
+          "top" : [ {
+            "item" : "George Mason University",
+            "count" : "14"
+          }, {
+            "item" : "University of Wisconsin-Whitewater",
+            "count" : "4"
+          }, {
+            "item" : "University of Wisconsin Whitewater",
+            "count" : "4"
+          }, {
+            "item" : "University of Texas at Austin",
+            "count" : "4"
+          }, {
+            "item" : "Trustees of Indiana University",
+            "count" : "3"
+          }, {
+            "item" : "Drexel University",
+            "count" : "3"
+          }, {
+            "item" : "Arizona State University",
+            "count" : "3"
+          }, {
+            "item" : "University of Georgia",
+            "count" : "3"
+          }, {
+            "item" : "University of Maine",
+            "count" : "3"
+          }, {
+            "item" : "Tufts University",
+            "count" : "3"
+          }, {
+            "item" : "Carleton College",
+            "count" : "2"
+          }, {
+            "item" : "Fielding Graduate University",
+            "count" : "2"
+          }, {
+            "item" : "SUNY College of Environmental Science and Forestry",
+            "count" : "2"
+          }, {
+            "item" : "Virginia Tech - Virginia Polytechnic Institute and State University",
+            "count" : "2"
+          }, {
+            "item" : "University of California Los Angeles",
+            "count" : "2"
+          }, {
+            "item" : "University of Pittsburgh",
+            "count" : "2"
+          }, {
+            "item" : "Smith College",
+            "count" : "2"
+          }, {
+            "item" : "University of Denver",
+            "count" : "2"
+          }, {
+            "item" : "California State University San Marcos",
+            "count" : "2"
+          }, {
+            "item" : "Mississippi State University",
+            "count" : "2"
+          } ],
+          "smallest" : "American University",
+          "count" : "80",
+          "cardinality" : "35"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508784,
+        "name" : "Principal Investigator",
+        "dataTypeName" : "text",
+        "description" : "Primary Project Researcher(s)",
+        "fieldName" : "principal_investigator",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529989,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Una Osili, PhD; Sara Konrath, PhD",
+          "null" : "0",
+          "top" : [ {
+            "item" : "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University",
+            "count" : "7"
+          }, {
+            "item" : "Dr. Jim Witte",
+            "count" : "7"
+          }, {
+            "item" : "Jenna Cushing-Leubner, PhD, Associate Professor University of Wisconsin-Whitewater; MN Zej Zog, National Hmoob Language Teacher Coalition, Minnesota Hmong Educators Coalition",
+            "count" : "4"
+          }, {
+            "item" : "Jenna Cushing-Leubner, PhD, University of Wisconsin-Whitewater",
+            "count" : "4"
+          }, {
+            "item" : "Ayana Allen-Handy, PhD, Drexel University; and Rachel Wenrick, Drexel University",
+            "count" : "2"
+          }, {
+            "item" : "Carlin Rafie, PhD, Virginia Tech; and Emily Zimmerman, PhD, Virginia Commonwealth University",
+            "count" : "2"
+          }, {
+            "item" : "Pamela Paxton, PhD, University of Texas at Austin, Department of Sociology, University of Texas at Austin Population Center",
+            "count" : "2"
+          }, {
+            "item" : "Rebecca Nesbit, PhD, University of Georgia; and Laurie E. Paarlberg, PhD, Indiana University, Lily School of Philanthropy",
+            "count" : "2"
+          }, {
+            "item" : "Jennifer Crittenden, PhD, University of Maine",
+            "count" : "2"
+          }, {
+            "item" : "Nicholas Cohen, MD",
+            "count" : "1"
+          }, {
+            "item" : "Suzanne Pritzker, PhD, University of Houston, Graduate College of Social Work; Denae King, PhD, Texas Southern University; Barbara Jordan, Mickey Leland School of Public Affairs",
+            "count" : "1"
+          }, {
+            "item" : "Kesha Moore, PhD, Department of Sociology, Drew University, and Arthur Pressley, PhD, Drew University Theological School & Graduate Division of Religion",
+            "count" : "1"
+          }, {
+            "item" : "Sam Intrator, PhD, Smith College; and Graeham Dodd, Ed.S., Smith College",
+            "count" : "1"
+          }, {
+            "item" : "Sam Intrator, PhD, Elizabeth A. Woodson 1922 Professor of Education & Child Study, Smith College; Denys Candy, Director, Smith College Jandon Center for Community Engagement",
+            "count" : "1"
+          }, {
+            "item" : "Dr. Emily Zimmerman",
+            "count" : "1"
+          }, {
+            "item" : "Jennifer Willett, PhD, University of Nevada, Reno, School of Social Work",
+            "count" : "1"
+          }, {
+            "item" : "Laura Wray-Wake, PhD, University of California Los Angeles",
+            "count" : "1"
+          }, {
+            "item" : "Jennifer Crittenden",
+            "count" : "1"
+          }, {
+            "item" : "Dana Fisher, PhD",
+            "count" : "1"
+          }, {
+            "item" : "Mark Hager, PhD, Arizona State University; and Faiza Venzant, Executive Director, Council for Certification in Volunteer Administration",
+            "count" : "1"
+          } ],
+          "smallest" : "Anita Chikkatur, Associate Professor, Department of Educational Studies, Carleton College, and Emily Oliver, MFA, Associate Director, Director of the Center for Community and Civic Engagement, Carleton College",
+          "count" : "80",
+          "cardinality" : "57"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508786,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "description" : "Project Title",
+        "fieldName" : "title",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529988,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Young People as Teachers",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Immigrants, Athletes, and Engagement",
+            "count" : "7"
+          }, {
+            "item" : "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?",
+            "count" : "7"
+          }, {
+            "item" : "Lub Zej Zog: Hmong Educators Coalition Project",
+            "count" : "4"
+          }, {
+            "item" : "Lub Zej Zog Hmong: Educators Coalition Project",
+            "count" : "4"
+          }, {
+            "item" : "Observing Civic Engagement & Assessing Civic Infrastructure",
+            "count" : "2"
+          }, {
+            "item" : "Research for Equity and Power",
+            "count" : "2"
+          }, {
+            "item" : "Participatory Action Research on Rural Secondary Education: Experiences of Diverse Students, Parents, and Teachers",
+            "count" : "1"
+          }, {
+            "item" : "Examining  Civic Mobility in the Heartland",
+            "count" : "1"
+          }, {
+            "item" : "Assessing Diversity and Equity in Volunteer Inclusion",
+            "count" : "1"
+          }, {
+            "item" : "Cultivando Sabiduría (Cultivating Wisdom)",
+            "count" : "1"
+          }, {
+            "item" : "Young People as Teachers",
+            "count" : "1"
+          }, {
+            "item" : "INARO: Montones de voluntades, transforman realidades.",
+            "count" : "1"
+          }, {
+            "item" : "Transfer and Transition – The Challenge of Sustaining Impact beyond Community-Based Youth Programs",
+            "count" : "1"
+          }, {
+            "item" : "Can a culturally relevant civic engagement program promote increased civic learning & activities for Latinos?",
+            "count" : "1"
+          }, {
+            "item" : "How Nonprofits Create Civic Infrastructure",
+            "count" : "1"
+          }, {
+            "item" : "Leading from the Roots: U.S. Community Based Folk Schools Inspiring Social Action",
+            "count" : "1"
+          }, {
+            "item" : "Participatory Action Planning to Address the Opioid Epidemic in a Rural Virginia Community",
+            "count" : "1"
+          }, {
+            "item" : "Civic Engagement Through the Voices of Latino/a Youth: Exploring Definitions, Supports, and Barriers",
+            "count" : "1"
+          }, {
+            "item" : "Scaling Up Participatory Action Planning _SEED",
+            "count" : "1"
+          }, {
+            "item" : "From Civic Participation to Community Control: Assessing and Strengthening Participatory Planning for Commercial District Development in Boston’s Dudley Neighborhood",
+            "count" : "1"
+          } ],
+          "smallest" : "Adapting in place: Exploring community and environmental wellness in the time of climate change",
+          "count" : "80",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508788,
+        "name" : "Background",
+        "dataTypeName" : "text",
+        "description" : "Project Background",
+        "fieldName" : "background",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529987,
+        "cachedContents" : {
+          "non_null" : "79",
+          "largest" : "Volunteering supports positive health, well-being, and increased socialization for older adults. The COVID-19 pandemic has increased health and isolation risks while limiting traditional on-site volunteer placements. Virtual volunteer (VV) strategies have quickly developed to fill the gap in volunteerism opportunities. This research will explore the opportunities, and challenges of VV from volunteer and host program/site perspectives. This study also aims to identify the range of benefits and configurations, like VV, that make volunteering more accessible to older adult volunteers.",
+          "null" : "1",
+          "top" : [ {
+            "item" : "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.",
+            "count" : "7"
+          }, {
+            "item" : "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.",
+            "count" : "7"
+          }, {
+            "item" : "The Lub Zej Zog Hmong Educators Coalition will bring together PreK-16 Hmong educators, community experts, teaching artists, and Hmong youth from California, Minnesota, and Wisconsin and use participatory research to learn how community-directed designs of this coalition of PreK-16 Hmong educators strengthen civic infrastructure and increase civic engagement amongst people typically assumed to be recipients, rather than makers, of civic life and infrastructure.",
+            "count" : "4"
+          }, {
+            "item" : "Hmong Language Resource Hub grew out of Hmong language, literacy, and culture teachers working together with youth, elders, artists, community members, and community organizations to create and share linguistically and culturally sustaining curriculum materials that connect school classrooms and the community.",
+            "count" : "4"
+          }, {
+            "item" : "This project leverages survey and interview data to address questions about the relationship between workplace organization and civic engagement during one’s lifetime. The team analyzes whether participatory forms of workplace organization can be a strategy to increase civic engagement.",
+            "count" : "2"
+          }, {
+            "item" : "This study will work with five community partners in rural and urban areas using youth participatory action research (YPAR) methodology. The study will investigate how youth and supportive adults can push for changes in their own schools, districts, and communities by connecting insights from youth research to professional development for educators, and by having youth representation in decision-making structures.",
+            "count" : "1"
+          }, {
+            "item" : "This research aims to lay the groundwork to advance the field's knowledge of how a place-based multi-modal collaborative arts program affects civic action and creates the relationships that bind those of diverse backgrounds, ages, religions, races, and genders together. With an already established intergenerational collective of youth, young and older adults on our team, additional funding from AmeriCorps Seniors will enable us to build on this existing work by creating a bridge cohort of 11 senior co-researchers/artists from WR and from Joy who will engage in collaborative projects centered on affordable housing, skill and workforce development, restorative justice/community healing, preserving cultural histories, and the prospective impacts on older adults’ lifelong learning, volunteerism and civic action. We will execute a community-driven participatory action research (CPAR) project with our cohort of seniors engaging in multi-modal data collection and analysis with other seniors both locally and nationally regarding issues that our seniors’ deem most important. Our team will serve as a case study and will support both local and national ACS volunteer stations.",
+            "count" : "1"
+          }, {
+            "item" : "This CBPR project will apply key concepts from REP's Equitable Development Playbook, a tool for advocacy and organizing, to identify and act on equity issues, including tangible projects in existing REP communities and a regional advocacy and organizing training and action plan developed alongside residents and advocates across the Pittsburgh region.  This project will explore how engaging residents in equitable development issues impacts their civic engagement and ability to influence changes in equity in their local and regional communities and informs future use of participatory approaches for long-term policy change.",
+            "count" : "1"
+          }, {
+            "item" : "This project aims to generate new understanding of what civic engagement looks like for Black youth and other youth of color in urban contexts and how risks and assets shape urban youth civic engagement.",
+            "count" : "1"
+          }, {
+            "item" : "This project will create a database including thousands of measures of nonprofit finances, expenditures, mission, capacity, and leadership. It will also create county- and city-level measures of civic infrastructure such as volunteerism and nonprofit capacity.",
+            "count" : "1"
+          }, {
+            "item" : "University of Houston, Texas Southern University, and community partners are studying four Houston-area communities affected by Hurricane Harvey to better understand how residents perceive civic engagement and how the disaster experience has impacted their civic engagement.",
+            "count" : "1"
+          }, {
+            "item" : "This study brings together the Colorado Coalition for the Homeless and the University of Denver to understand how mutual aid can support young people experiencing homelessness to build social capital and civic engagement.",
+            "count" : "1"
+          }, {
+            "item" : "Tisch College’s CIRCLE received a CNCS 2015 National Service and Civic Engagement Research Competition grant to conduct a field experiment exploring whether listing national service on a job candidate’s application materials had a positive or significant impact on the prospect of getting a job.  Through a supplemental grant, the CIRCLE researchers are exploring the perceptions of AmeriCorps service among hiring managers using surveys, in-depth interviews, and a resume-based experiment to examine the Employers of National Service program.",
+            "count" : "1"
+          }, {
+            "item" : "Programs that position young people as teachers (YPAT) are a promising and growing approach to supporting young adult development. YPAT programs provide opportunities for young people to learn about themselves while actively contributing to their communities. This mixed methods study will begin with a field scan of YPAT programs and then employ surveys and focus groups to investigate the extent to which serving as a teacher develops identity, agency and civic commitment, processes that Scales (2016) identifies as integral to young adult development.",
+            "count" : "1"
+          }, {
+            "item" : "This action research will explore how to create and sustain meaningful and supportive civic engagement infrastructure for diverse refugee and immigrant communities. Utilizing a cycle of action research, local refugees and other stakeholders will provide focus groups, inform collective analysis and reflection, and develop and implement actions. The findings will inform local refugee communities, organizations and government, other organizations interested in civic engagement and/or refugee integration, and various academic arenas focused on community research.",
+            "count" : "1"
+          }, {
+            "item" : "The Cultivando Liderazgo (Cultivating Leadership) study examines changes in civic engagement behavior, including traditional forms of political involvement (e.g., voting, volunteering for candidates or political organizations, contributions to campaigns) and nontraditional civic engagement activities (e.g., grassroots efforts aimed to shape local initiatives or produce positive social change at the community level) among Latino/a adults and youth. Through a longitudinal survey, the Cultivando Liderazgo study seeks to understand the civic engagement of participants who are learning the curriculum alongside their families and those attending the class as individuals. It also explores the dynamics of geographical infrastructure and accessibility on the effects of civic engagement curriculum. A supplemental study engaged in community conversations with Latinos/as using photo-elicitation interviews and oral histories with artifacts to showcase the depth of civic engagement.",
+            "count" : "1"
+          }, {
+            "item" : "Despite the stress from Hurricanes Maria and Irma in Puerto Rico, the disasters resulted in a greater sense of community and appreciation. This project brings together university faculty, community members, and students to explore the community characteristics that promote or inhibit civic engagement and community cohesion.",
+            "count" : "1"
+          }, {
+            "item" : "As a 2015 National Service and Civic Engagement Competition grantee through CNCS, Morrison Institute is conducting follow-up research on a pilot study to better understand the employability and employment outcomes of AmeriCorps members. The follow-up study expands a previous analysis of Arizona’s AmeriCorps programs to five states across the country: Massachusetts, Minnesota, Nevada, Tennessee, and Washington. Using a mixed? methods research and evaluation design that includes 367 phone surveys, 15 focus groups with AmeriCorps alumni and supervisors, and eight interviews with AmeriCorps State Commissioners, the study examines the personal and professional networks emerging within the AmeriCorps program, which can lead to positive employment outcomes.",
+            "count" : "1"
+          }, {
+            "item" : "This project brings together university faculty, community residents, students, and alumni to investigate the landscape of residential displacement and affordable housing options in the rapidly gentrifying and federally designated West Philadelphia Promise Zone.",
+            "count" : "1"
+          }, {
+            "item" : "This study aims to better understand how Latinx youth conceptualize civic engagement, what supports and encourages them to be involved, what obstacles keep them from being involved, and how they think young people could be supported to engage civically.",
+            "count" : "1"
+          } ],
+          "smallest" : "Although there are decades of research noting the positive benefits of parent involvement, Black parents are often viewed as uninvolved in their children's education partly due to societal stereotypes. Using Critical Race Theory to understand how race influences Black parentsʹ participation within the public educational system, this mixed‐methods study will explore Black parentsʹ critical consciousness (CC), which can be conceptualized as an extension of civic engagement in that it encompasses the activities performed to benefit the academic success of their children and other children within their community. To explore these open questions, qualitative interviews will be conducted with approximately 20 Black parents in Southeastern Michigan. The main research question motivating this study is: how do Black parentsʹ critical analysis of social and educational inequities influence their motivations to interact with their children's school? These data will be analyzed using inductive and iterative approaches. Themes from the qualitative data will be used to develop an instrument to measure parental CC. The proposed scale will be sent to a separate sample of parent participants to perform exploratory factor analyses and confirmatory factor analyses.",
+          "count" : "80",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508789,
+        "name" : "Research Approach",
+        "dataTypeName" : "text",
+        "description" : "Research Method Utilized in Grantee Project",
+        "fieldName" : "research_approach",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529986,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Traditional Research",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Traditional Research",
+            "count" : "45"
+          }, {
+            "item" : "Participatory Research",
+            "count" : "35"
+          } ],
+          "smallest" : "Participatory Research",
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508858,
+        "name" : "Location Type",
+        "dataTypeName" : "text",
+        "description" : "Project Location Type ",
+        "fieldName" : "location_type",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 151753538,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Site Specific",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Site Specific",
+            "count" : "57"
+          }, {
+            "item" : "National",
+            "count" : "23"
+          } ],
+          "smallest" : "National",
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508791,
+        "name" : "Resources",
+        "dataTypeName" : "url",
+        "description" : "Affiliated Link to Additional Grantee Project Information",
+        "fieldName" : "resources",
+        "position" : 8,
+        "renderTypeName" : "url",
+        "tableColumnId" : 150529985,
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 590508793,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "description" : "Project Site City",
+        "fieldName" : "city",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529984,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Washington",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Philadelphia",
+            "count" : "5"
+          }, {
+            "item" : "Madison",
+            "count" : "4"
+          }, {
+            "item" : "Austin",
+            "count" : "4"
+          }, {
+            "item" : "Denver",
+            "count" : "3"
+          }, {
+            "item" : "Medford",
+            "count" : "3"
+          }, {
+            "item" : "Orono",
+            "count" : "3"
+          }, {
+            "item" : "Athens",
+            "count" : "3"
+          }, {
+            "item" : "San Marcos",
+            "count" : "2"
+          }, {
+            "item" : "Boston",
+            "count" : "2"
+          }, {
+            "item" : "Cincinnati",
+            "count" : "2"
+          }, {
+            "item" : "Indianapolis",
+            "count" : "2"
+          }, {
+            "item" : "Miami",
+            "count" : "2"
+          }, {
+            "item" : "Phoenix",
+            "count" : "2"
+          }, {
+            "item" : "Detroit",
+            "count" : "2"
+          }, {
+            "item" : "Washington",
+            "count" : "2"
+          }, {
+            "item" : "Pittsburgh",
+            "count" : "2"
+          }, {
+            "item" : "Seattle",
+            "count" : "2"
+          }, {
+            "item" : "Syracuse",
+            "count" : "2"
+          }, {
+            "item" : "Sacramento",
+            "count" : "2"
+          }, {
+            "item" : "Blacksburg",
+            "count" : "2"
+          } ],
+          "smallest" : "Ann Arbor",
+          "count" : "80",
+          "cardinality" : "41"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508794,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "description" : "Project Site State",
+        "fieldName" : "state",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529983,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Wisconsin",
+          "null" : "0",
+          "top" : [ {
+            "item" : "California",
+            "count" : "12"
+          }, {
+            "item" : "Massachusetts",
+            "count" : "7"
+          }, {
+            "item" : "Pennsylvania",
+            "count" : "7"
+          }, {
+            "item" : "Texas",
+            "count" : "5"
+          }, {
+            "item" : "Minnesota",
+            "count" : "4"
+          }, {
+            "item" : "Virginia",
+            "count" : "4"
+          }, {
+            "item" : "Maine",
+            "count" : "3"
+          }, {
+            "item" : "Indiana",
+            "count" : "3"
+          }, {
+            "item" : "Wisconsin",
+            "count" : "3"
+          }, {
+            "item" : "Arizona",
+            "count" : "3"
+          }, {
+            "item" : "Georgia",
+            "count" : "3"
+          }, {
+            "item" : "Ohio",
+            "count" : "3"
+          }, {
+            "item" : "Michigan",
+            "count" : "3"
+          }, {
+            "item" : "Colorado",
+            "count" : "3"
+          }, {
+            "item" : "New York",
+            "count" : "2"
+          }, {
+            "item" : "District of Columbia",
+            "count" : "2"
+          }, {
+            "item" : "Florida",
+            "count" : "2"
+          }, {
+            "item" : "Washington",
+            "count" : "2"
+          }, {
+            "item" : "Mississippi",
+            "count" : "2"
+          }, {
+            "item" : "Maryland",
+            "count" : "1"
+          } ],
+          "smallest" : "Arizona",
+          "count" : "80",
+          "cardinality" : "26"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508796,
+        "name" : "Country",
+        "dataTypeName" : "text",
+        "description" : "Project Site Country (USA)",
+        "fieldName" : "country",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529982,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "USA",
+          "null" : "0",
+          "top" : [ {
+            "item" : "USA",
+            "count" : "80"
+          } ],
+          "smallest" : "USA",
+          "count" : "80",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508797,
+        "name" : "City/State",
+        "dataTypeName" : "text",
+        "description" : "Project Site City and State",
+        "fieldName" : "city_state",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 150529981,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "Washington, District of Columbia , USA",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Philadelphia , Pennsylvania, USA",
+            "count" : "5"
+          }, {
+            "item" : "Austin, Texas, USA",
+            "count" : "4"
+          }, {
+            "item" : "Athens, Georgia, USA",
+            "count" : "3"
+          }, {
+            "item" : "Madison, Wisconsin, USA",
+            "count" : "3"
+          }, {
+            "item" : "Denver, Colorado, USA",
+            "count" : "3"
+          }, {
+            "item" : "Medford, Massachusetts, USA",
+            "count" : "3"
+          }, {
+            "item" : "Orono, Maine, USA",
+            "count" : "3"
+          }, {
+            "item" : "Santa Barbara, California, USA",
+            "count" : "2"
+          }, {
+            "item" : "Miami, Florida, USA",
+            "count" : "2"
+          }, {
+            "item" : "Boston, Massachusetts, USA",
+            "count" : "2"
+          }, {
+            "item" : "Richmond, Virginia, USA",
+            "count" : "2"
+          }, {
+            "item" : "Pittsburgh, Pennsylvania, USA",
+            "count" : "2"
+          }, {
+            "item" : "Cincinnati, Ohio, USA",
+            "count" : "2"
+          }, {
+            "item" : "Detroit, Michigan, USA",
+            "count" : "2"
+          }, {
+            "item" : "San Marcos, California, USA",
+            "count" : "2"
+          }, {
+            "item" : "Syracuse, New York, USA",
+            "count" : "2"
+          }, {
+            "item" : "Fresno, California, USA",
+            "count" : "2"
+          }, {
+            "item" : "Indianapolis, Indiana, USA",
+            "count" : "2"
+          }, {
+            "item" : "Seattle, Washington, USA",
+            "count" : "2"
+          }, {
+            "item" : "Sacramento, California, USA",
+            "count" : "2"
+          } ],
+          "smallest" : "Ann Arbor, Michigan, USA",
+          "count" : "80",
+          "cardinality" : "43"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508799,
+        "name" : "Arts and Culture",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Arts and Culture",
+        "fieldName" : "arts_and_culture",
+        "position" : 13,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529980,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "57"
+          }, {
+            "item" : true,
+            "count" : "23"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508800,
+        "name" : "Community Development",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Community Development",
+        "fieldName" : "community_development",
+        "position" : 14,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529979,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "40"
+          }, {
+            "item" : true,
+            "count" : "40"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508802,
+        "name" : "Education Across the Life Course",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Education Across the Life Course",
+        "fieldName" : "education_across_the_life",
+        "position" : 15,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529978,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "50"
+          }, {
+            "item" : true,
+            "count" : "30"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508803,
+        "name" : "Youth Development",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Youth Development",
+        "fieldName" : "youth_development",
+        "position" : 16,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529977,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "52"
+          }, {
+            "item" : true,
+            "count" : "28"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508805,
+        "name" : "Environment and Climate Change",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Environment and Climate Change",
+        "fieldName" : "environment_and_climate_change",
+        "position" : 17,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529976,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "74"
+          }, {
+            "item" : true,
+            "count" : "6"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508806,
+        "name" : "Health & Social Wellbeing",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Health and Social Wellbeing",
+        "fieldName" : "health_social_wellbeing",
+        "position" : 18,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529975,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "68"
+          }, {
+            "item" : true,
+            "count" : "12"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508808,
+        "name" : "Immigrants, Immigration, & Refugees",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Immigrants, Immigration, & Refugees",
+        "fieldName" : "immigrants_immigration",
+        "position" : 19,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529974,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "51"
+          }, {
+            "item" : true,
+            "count" : "29"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508810,
+        "name" : "Economic Opportunity and Employment",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Economic Opportunity and Employment ",
+        "fieldName" : "economic_opportunity_and",
+        "position" : 20,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529973,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "68"
+          }, {
+            "item" : true,
+            "count" : "12"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508811,
+        "name" : "Senior Development",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Senior Development",
+        "fieldName" : "senior_development",
+        "position" : 21,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529972,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "65"
+          }, {
+            "item" : true,
+            "count" : "15"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508813,
+        "name" : "Volunteering, Nonprofit Studies, and National Service",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Volunteering, Nonprofit Studies, and National Service",
+        "fieldName" : "volunteering_nonprofit_studies",
+        "position" : 22,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529971,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : false,
+            "count" : "44"
+          }, {
+            "item" : true,
+            "count" : "36"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508814,
+        "name" : "Social Equity",
+        "dataTypeName" : "checkbox",
+        "description" : "Topic Area: Social Equity",
+        "fieldName" : "social_equity",
+        "position" : 23,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 150529970,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "45"
+          }, {
+            "item" : false,
+            "count" : "35"
+          } ],
+          "count" : "80",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508816,
+        "name" : "Georeferenced Column ",
+        "dataTypeName" : "point",
+        "description" : "Geocoded Project Site ",
+        "fieldName" : "georeferenced_column_",
+        "position" : 24,
+        "renderTypeName" : "point",
+        "tableColumnId" : 150529969,
+        "cachedContents" : {
+          "non_null" : "80",
+          "null" : "0",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -75.168239, 39.959065 ],
+              "type" : "Point"
+            },
+            "count" : "5"
+          }, {
+            "item" : {
+              "coordinates" : [ -97.711578, 30.345445 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -68.6723489, 44.896421 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -83.37794, 33.96095 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -104.9428474, 39.7484325 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -89.407893, 43.071851 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -71.108505563, 42.429316999 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -77.05595496, 38.881381275 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -80.483341245, 25.581881879 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -93.261496, 44.95623 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -88.810893, 33.463532 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -71.0727611, 42.3519973 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -119.698902, 34.421578 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -118.433957, 34.054017 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -72.6312111, 42.3198686 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -83.048061, 42.330762 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.14742, 43.04812 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -119.77237, 36.74773 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -121.194031, 38.635271 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -112.064269, 33.613382 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          } ],
+          "count" : "80",
+          "cardinality" : "42"
+        },
+        "format" : { }
+      }, {
+        "id" : 590508819,
+        "name" : "Regions",
+        "dataTypeName" : "number",
+        "description" : "This column was automatically created in order to record in what polygon from the dataset 'Regions' (h7hc-tkax) the point in column 'georeferenced_column_' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+        "fieldName" : ":@computed_region_h7hc_tkax",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 150529993,
+        "computationStrategy" : {
+          "source_columns" : [ "georeferenced_column_" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_h7hc-tkax",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 590508820,
+        "name" : "Geo-spatial Dataset",
+        "dataTypeName" : "number",
+        "description" : "This column was automatically created in order to record in what polygon from the dataset 'Geo-spatial Dataset' (cvuu-h73w) the point in column 'georeferenced_column_' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+        "fieldName" : ":@computed_region_cvuu_h73w",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 150529994,
+        "computationStrategy" : {
+          "source_columns" : [ "georeferenced_column_" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_cvuu-h73w",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 590508817,
+        "name" : "SHP State Data",
+        "dataTypeName" : "number",
+        "description" : "This column was automatically created in order to record in what polygon from the dataset 'SHP State Data' (u3ga-3aqn) the point in column 'georeferenced_column_' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+        "fieldName" : ":@computed_region_u3ga_3aqn",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 150529992,
+        "computationStrategy" : {
+          "source_columns" : [ "georeferenced_column_" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_u3ga-3aqn",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "attachments" : [ {
+          "filename" : "AmeriCorps Research Grantee Data Dictionary_March2024_508.pdf",
+          "assetId" : "b62471b9-c2f1-46d5-8233-5216dcb19182",
+          "name" : "AmeriCorps Research Grantee Data Dictionary_March2024_508.pdf"
+        }, {
+          "filename" : "What is a Research Grant_053023_final_508.pdf",
+          "assetId" : "423b76af-8cce-4027-ac73-8c58259b2603",
+          "name" : "What is a Research Grant_053023_final_508.pdf"
+        } ],
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "Researchandevaluation@americorps.gov",
+            "Language" : "en-US",
+            "Contact Name" : "AmeriCorps Office of Research and Evaluation",
+            "Update Frequency" : "irregular",
+            "Last Update" : "3/12/2024",
+            "Program Code" : "485:000",
+            "Publisher" : "AmeriCorps Office of Research and Evaluation",
+            "Bureau Code" : "485:00",
+            "Public Access Level" : "public"
+          },
+          "Scope and Iteration" : {
+            "Posting Frequency" : "N/A",
+            "Time Period" : "2015-2023",
+            "Coverage" : "State",
+            "Granularity" : "City"
+          }
+        },
+        "rowLabel" : "Research Grantee Project Site",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "4k33-7rhe",
+        "displayName" : "Rosa Johnson",
+        "screenName" : "Rosa Johnson",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "4k33-7rhe",
+        "displayName" : "Rosa Johnson",
+        "screenName" : "Rosa Johnson",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "research", "participatory research", "grantees", "grants", "civic engagement", "volunteering and civic life in america", "evaluation", "americorps", "volunteering" ],
+      "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-v6ns.2ggh_ihh4", "00000000-0000-0000-4541-AC9C8A8147FC", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Georgia", "Rebecca Nesbit, PhD, University of Georgia", "Examining the Determinants of Rural/Urban Volunteering", "This study aims to examine the determinants of rural and urban volunteering. It explores how county contextual factors impact a variety of volunteering behaviors, such as whether someone volunteers, where they volunteer, and the number of hours they spend volunteering.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Athens", "Georgia", "USA", "Athens, Georgia, USA", false, true, false, false, false, false, false, false, false, true, false, "POINT (-83.37794 33.96095)", "41", "45", "29" ]
+, [ "row-54jy_9smp-gkcj", "00000000-0000-0000-D3E9-B92D4B724EB2", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Drew University", "Kesha Moore, PhD, Department of Sociology, Drew University, and Arthur Pressley, PhD, Drew University Theological School & Graduate Division of Religion", "Neighbors in Need: Housing the Most Vulnerable in Morris County", "This project brings together university faculty, students, community residents, organizations, and government representatives to help end homelessness for the most vulnerable members of local communities.", "Participatory Research", "Site Specific", [ "https://linktr.ee/NINmorris", null ], "Madison", "New Jersey", "USA", "Madison, New Jersey, USA", false, true, false, false, false, false, false, true, false, false, false, "POINT (-74.4149884 40.7587479)", "21", "21", "6" ]
+, [ "row-7dyb-2dsh~9hs8", "00000000-0000-0000-D49B-038FF9AA4409", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "California State University San Marcos", "National Latino Research Center", "Can a culturally relevant civic engagement program promote increased civic learning & activities for Latinos?", "The Cultivando Liderazgo (Cultivating Leadership) study examines changes in civic engagement behavior, including traditional forms of political involvement (e.g., voting, volunteering for candidates or political organizations, contributions to campaigns) and nontraditional civic engagement activities (e.g., grassroots efforts aimed to shape local initiatives or produce positive social change at the community level) among Latino/a adults and youth. Through a longitudinal survey, the Cultivando Liderazgo study seeks to understand the civic engagement of participants who are learning the curriculum alongside their families and those attending the class as individuals. It also explores the dynamics of geographical infrastructure and accessibility on the effects of civic engagement curriculum. A supplemental study engaged in community conversations with Latinos/as using photo-elicitation interviews and oral histories with artifacts to showcase the depth of civic engagement.", "Traditional Research", "Site Specific", [ "https://news.csusm.edu/new-study-examines-latino-community-participation-and-civic-leadership-in-san-diego/", null ], "San Marcos", "California", "USA", "San Marcos, California, USA", true, true, true, false, false, false, true, false, false, true, true, "POINT (-117.159429 33.128486)", "47", "25", "23" ]
+, [ "row-gdzu_79sn-khnx", "00000000-0000-0000-8FA7-8DD07BF8AB50", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "Drexel University", "Ayana Allen-Handy, PhD, Drexel University; and Rachel Wenrick, Drexel University", "Drexel University Seniors Supplemental Study", "This research aims to lay the groundwork to advance the field's knowledge of how a place-based multi-modal collaborative arts program affects civic action and creates the relationships that bind those of diverse backgrounds, ages, religions, races, and genders together. With an already established intergenerational collective of youth, young and older adults on our team, additional funding from AmeriCorps Seniors will enable us to build on this existing work by creating a bridge cohort of 11 senior co-researchers/artists from WR and from Joy who will engage in collaborative projects centered on affordable housing, skill and workforce development, restorative justice/community healing, preserving cultural histories, and the prospective impacts on older adults’ lifelong learning, volunteerism and civic action. We will execute a community-driven participatory action research (CPAR) project with our cohort of seniors engaging in multi-modal data collection and analysis with other seniors both locally and nationally regarding issues that our seniors’ deem most important. Our team will serve as a case study and will support both local and national ACS volunteer stations.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation", null ], "Philadelphia", "Pennsylvania", "USA", "Philadelphia , Pennsylvania, USA", true, true, true, false, false, false, false, false, true, false, false, "POINT (-75.168239 39.959065)", "13", "18", "10" ]
+, [ "row-86ax-p3xd~ekgh", "00000000-0000-0000-97FF-CC1BA4D93767", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "American University", "Dana Fisher, PhD", "Developing Research Strategies to Assess the Expanding Work on Climate Adaptation, Resilience, and Mitigation at AmeriCorps", "Since President Biden signed an executive order to tackle the climate crisis at home and abroad, federal agencies have worked to integrate climate adaptation, resilience, and mitigation into their work.  This project will develop research strategies to assess, evaluate, and monitor the expanding work on climate adaptation, resilience, and mitigation at AmeriCorps.  Once these strategies have been developed the project will then begin to conduct research following those strategies and insights.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation", null ], "Washington", "District of Columbia", "USA", "Washington, District of Columbia , USA", false, false, false, false, true, true, false, true, false, false, true, "POINT (-77.05595496 38.881381275)", "43", "28", "27" ]
+, [ "row-pvhc.99rc_3drk", "00000000-0000-0000-B6E6-F37E741C8C8B", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Fielding Graduate University", "David Blake Willis, PhD, Fielding Graduate University; and co-PI and community partner Dawn Jackman Murphy, Fielding Graduate University and Folk School Alliance", "Folk School Alliance Network: Strengthening a distributed network through participatory approaches", "The university and community partners will study how social cohesion and collaboration between loosely-linked independent local organizations may be supported by participatory research approaches. This research will also investigate how to scale these participatory approaches to strengthen a decentralized Folk School Alliance Network comprised of over 90 organizations that support the craft economy across the US.", "Participatory Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Santa Barbara", "California", "USA", "Santa Barbara, California, USA", true, false, true, false, false, false, false, true, false, true, false, "POINT (-119.698902 34.421578)", "47", "25", "23" ]
+, [ "row-je83~pg5t~u86p", "00000000-0000-0000-1D25-69A5F218A07C", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "California State University San Marcos", "Marisol Clark-Ibanez, PhD", "Cultivando Sabiduría (Cultivating Wisdom)", "A team from the National Latino Research Center is conducting one of the largest mixed-method studies on volunteering and civic engagement among Latino elders. The study examines the impact of participation in a civic engagement class for low-income, Spanish-speaking Latino elders with little or no formal education.", "Traditional Research", "Site Specific", [ "https://www.youtube.com/watch?v=o1j77Gwc8pk", null ], "San Marcos", "California", "USA", "San Marcos, California, USA", true, true, true, false, false, true, true, false, true, false, true, "POINT (-117.159429 33.128486)", "47", "25", "23" ]
+, [ "row-g7ww.cui6_waa6", "00000000-0000-0000-5F00-49F518AF3D77", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "SUNY College of Environmental Science and Forestry", "Maren King and Christina Limpert, PhD, State University of New York, College of Environmental Science and Forestry", "Raising the Next Generation of Community Leaders: A Participatory Research Process with Teenagers of the Near Westside Neighborhood of Syracuse, New York", "This project brings together adult research team mentors and neighborhood teenagers as co-researchers to investigate and better understand the issues affecting young people's lives, like crime and violence, and develop pathways for positive growth as individuals and as community leaders.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Syracuse", "New York", "USA", "Syracuse, New York, USA", false, true, true, true, true, false, false, true, false, false, true, "POINT (-76.14742 43.04812)", "19", "17", "7" ]
+, [ "row-nqp6_c2tm~33yx", "00000000-0000-0000-1E2C-1EC835B56C50", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Cincinnati", "Anjali Dutt, PhD, University of Cincinnati; and Farrah Jacquez, PhD, University of Cincinnati", "Civic Action for Refugee Empowerment in Cincinnati", "This action research will explore how to create and sustain meaningful and supportive civic engagement infrastructure for diverse refugee and immigrant communities. Utilizing a cycle of action research, local refugees and other stakeholders will provide focus groups, inform collective analysis and reflection, and develop and implement actions. The findings will inform local refugee communities, organizations and government, other organizations interested in civic engagement and/or refugee integration, and various academic arenas focused on community research.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Cincinnati", "Ohio", "USA", "Cincinnati, Ohio, USA", false, true, false, false, false, true, true, false, false, true, true, "POINT (-84.351135979 39.28838645)", "16", "26", "9" ]
+, [ "row-hwj2~pevy-qetk", "00000000-0000-0000-FA46-617BD1671297", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Denver", "Kimber Bender, PhD, University of Denver", "Participatory research to build civic infrastructure through peer support programming among unhoused young people", "This participatory action research (PAR) project is a collaboration with the university and a community project supporting unhoused young people to build civic infrastructure that centers lived expertise of homelessness. The team will co-train each other to build skills of inquiry and action, engage in collaborative participatory research, and formalize a peer support program—all while studying their process to inform how civic infrastructure can be built through PAR.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Denver", "Colorado", "USA", "Denver, Colorado, USA", false, true, false, true, false, true, false, false, false, true, true, "POINT (-104.9428474 39.7484325)", "46", "32", "24" ]
+, [ "row-mnju~5fic_9nmz", "00000000-0000-0000-28DD-840C0DFA94D8", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Wisconsin Whitewater", "Jenna Cushing-Leubner, PhD, Associate Professor University of Wisconsin-Whitewater; MN Zej Zog, National Hmoob Language Teacher Coalition, Minnesota Hmong Educators Coalition", "Lub Zej Zog Hmong: Educators Coalition Project", "Hmong Language Resource Hub grew out of Hmong language, literacy, and culture teachers working together with youth, elders, artists, community members, and community organizations to create and share linguistically and culturally sustaining curriculum materials that connect school classrooms and the community.", "Participatory Research", "Site Specific", [ "https://www.hmonglanguageresourcehub.org/about", null ], "Sacramento", "California", "USA", "Sacramento, California, USA", true, false, true, true, false, false, true, false, true, false, false, "POINT (-121.194031 38.635271)", "47", "25", "23" ]
+, [ "row-gd5a.d8jp.qs5u", "00000000-0000-0000-46BD-374012622E26", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Philadelphia", "Pennsylvania", "USA", "Philadelphia , Pennsylvania, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-75.168239 39.959065)", "13", "18", "10" ]
+, [ "row-gvxc_xzk4~frf2", "00000000-0000-0000-EA07-A5A3211327A2", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "SUNY College of Environmental Science and Forestry", "Maren King, MSLA, SUNY College of Environmental Science and Forestry; and Christina Limpert, PhD, SUNY College of Environmental Science and Forestry", "Adapting in place: Exploring community and environmental wellness in the time of climate change", "This research seeks to better understand the Syracuse community’s knowledge and interest in the conditions of their neighborhood environments, how those conditions affect their health and well-being, and how people make sense of and react to the escalating environmental crises. This project will culminate with a community event bringing together an intergenerational advisory board that will guide the project, participants, community-based organizations working for equitable and healthy neighborhood environments, and elected local leadership, to foster dialogue around civic engagement in planning, programs, policy t and funding.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Syracuse", "New York", "USA", "Syracuse, New York, USA", false, true, false, false, true, false, false, false, true, false, true, "POINT (-76.14742 43.04812)", "19", "17", "7" ]
+, [ "row-evpp_xk7x.zqvd", "00000000-0000-0000-7FF6-9115DB6D42F6", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Houston and Texas Southern University", "Suzanne Pritzker, PhD, University of Houston, Graduate College of Social Work; Denae King, PhD, Texas Southern University; Barbara Jordan, Mickey Leland School of Public Affairs", "Building Civic Engagement in the Post-Harvey Context: Exploring Facilitators and Barriers to Civic Activity in Four Hurricane-Affected Communities in Houston", "University of Houston, Texas Southern University, and community partners are studying four Houston-area communities affected by Hurricane Harvey to better understand how residents perceive civic engagement and how the disaster experience has impacted their civic engagement.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Houston", "Texas", "USA", "Houston, Texas, USA", false, false, false, false, true, false, false, false, false, false, false, "POINT (-95.360549 29.75823)", "8", "41", "13" ]
+, [ "row-hgi9.t3ac-xenc", "00000000-0000-0000-D57C-8BC0A9EEC7C0", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "Clemson University", "Martie Thompson, PhD", "Getting Things Done for Life: Long-term Outcomes of AmeriCorps Service for Diverse Groups of Members", "To help improve member experience and recruitment efforts, this project examines the long-term impact that AmeriCorps service has on diverse groups of members.", "Traditional Research", "National", [ "https://tigerprints.clemson.edu/all_dissertations/2139/", null ], "Clemson", "South Carolina", "USA", "Clemson, South Carolina, USA", false, false, true, true, false, false, false, true, false, true, false, "POINT (-82.803943563 34.690854368)", "11", "46", "47" ]
+, [ "row-3vwn-8nvh.e7vy", "00000000-0000-0000-DDB0-90C45EE4F64E", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "Tufts University", "Dr. Peter Levine", "Does listing national service on a resume positively impact job prospects?", "Tisch College’s CIRCLE received a CNCS 2015 National Service and Civic Engagement Research Competition grant to conduct a field experiment exploring whether listing national service on a job candidate’s application materials had a positive or significant impact on the prospect of getting a job.  Through a supplemental grant, the CIRCLE researchers are exploring the perceptions of AmeriCorps service among hiring managers using surveys, in-depth interviews, and a resume-based experiment to examine the Employers of National Service program.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Medford", "Massachusetts", "USA", "Medford, Massachusetts, USA", false, false, false, true, false, false, false, true, false, true, false, "POINT (-71.108505563 42.429316999)", "30", "15", "2" ]
+, [ "row-af6e.qp7e-w9e3", "00000000-0000-0000-F529-22E6E7A0C558", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Pittsburgh", "Mary Ohmer, PhD, University of Pittsburgh; and Co-PI and community partner Jason Beery, PhD, UrbanKind Institute, Director of Applied Research", "Research for Equity and Power", "This CBPR project will apply key concepts from REP's Equitable Development Playbook, a tool for advocacy and organizing, to identify and act on equity issues, including tangible projects in existing REP communities and a regional advocacy and organizing training and action plan developed alongside residents and advocates across the Pittsburgh region.  This project will explore how engaging residents in equitable development issues impacts their civic engagement and ability to influence changes in equity in their local and regional communities and informs future use of participatory approaches for long-term policy change.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Pittsburgh", "Pennsylvania", "USA", "Pittsburgh, Pennsylvania, USA", false, true, false, false, false, false, false, false, false, false, true, "POINT (-80.040115 40.469794)", "13", "18", "10" ]
+, [ "row-92v4-juvw~5fjr", "00000000-0000-0000-5625-60A85AAF9A6F", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of California Los Angeles", "Laura Wray-Lake, PhD", "A Multimethod Examination of Urban Youth Civic Engagement", "This project aims to generate new understanding of what civic engagement looks like for Black youth and other youth of color in urban contexts and how risks and assets shape urban youth civic engagement.", "Traditional Research", "Site Specific", [ "https://www.cambridgeblog.org/2023/11/how-can-we-fight-for-racial-justice-lessons-from-young-black-changemakers/", null ], "Los Angeles", "California", "USA", "Los Angeles, California, USA", false, true, true, true, false, false, false, false, false, true, true, "POINT (-118.433957 34.054017)", "47", "25", "23" ]
+, [ "row-9aqn.rv3i.g6nf", "00000000-0000-0000-23F2-1A3CE46E9426", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "University of Georgia", "Rebecca Nesbit, PhD, University of Georgia; and Laurie E. Paarlberg, PhD, Indiana University, Lily School of Philanthropy", "University of Georgia Seniors Supplemental Study", "This project explores the influence of civic infrastructure on the volunteering behavior of seniors. The civic infrastructure includes the numbers and types of community organizations that support or condition volunteering, including schools, community foundations, human service nonprofits, fraternal organizations, etc. We will examine 1) how this civic infrastructure influences the volunteering behavior of seniors and whether the civic infrastructure has a different effect on seniors’ volunteering relative to younger individuals, 2) differences in how civic infrastructure affects senior volunteering across rural and urban places, 3) identify several different types of community profiles (e.g. highly educated, economically disadvantaged, arts-focused, etc.) and provide descriptive profiles of senior volunteering behavior in those types of communities.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation", null ], "Athens", "Georgia", "USA", "Athens, Georgia, USA", false, true, false, false, false, false, false, false, true, true, true, "POINT (-83.37794 33.96095)", "41", "45", "29" ]
+, [ "row-zydv~v8f8_rmbp", "00000000-0000-0000-8D94-EB23A54DC557", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Miami", "Florida", "USA", "Miami, Florida, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-80.483341245 25.581881879)", "42", "49", "28" ]
+, [ "row-xgzb~9sfq_xge9", "00000000-0000-0000-1583-E883FEBF0B83", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Appalachian State University", "Martie Thompson, PhD, Appalachian State University, Department of Public Health & Exercise Sciences; and Matthew Hudson-Flege, PhD, Appalachian State University", "Civic Engagement, Health, and Community: A Nationally-Representative Study on the Long-term Impacts of Civic Engagement during Emerging Adulthood", "This study will investigate to the extent that civic engagement participation during emerging adulthood predicts positive physical, mental, and behavioral health outcomes in middle adulthood. The data includes a nationally representative sample of over 20,000 respondents surveyed over 5 times spanning 22 years from the National Longitudinal Study of Adolescent to Adult Health as well as a longitudinal sample of AmeriCorps members surveyed before, immediately after, and 1-year after service.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Boone", "North Carolina", "USA", "Boone, North Carolina, USA", false, false, true, true, false, true, false, false, false, true, false, "POINT (-81.636301649 36.093481705)", "18", "39", "8" ]
+, [ "row-ftm9.63y7~dktx", "00000000-0000-0000-6DB1-24ACE4C152DD", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Denver Graduate Schools of Social Work and University of Houston Graduate College of Social Work", "Nicole Nicotera, PhD", "Civic Engagement Through the Voices of Latino/a Youth: Exploring Definitions, Supports, and Barriers", "This study aims to better understand how Latinx youth conceptualize civic engagement, what supports and encourages them to be involved, what obstacles keep them from being involved, and how they think young people could be supported to engage civically.", "Traditional Research", "Site Specific", [ "https://www.youtube.com/watch?v=-8TM_l-S60Q", null ], "Denver", "Colorado", "USA", "Denver, Colorado, USA", false, true, true, true, false, false, true, false, false, true, true, "POINT (-104.9428474 39.7484325)", "46", "32", "24" ]
+, [ "row-f595_u9e6.dbqh", "00000000-0000-0000-5311-E001919EDD44", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Nebraska Omaha", "Jodi Benenson, PhD, University of Nebraska", "Examining  Civic Mobility in the Heartland", "This mixed method study will focus on understanding how young people ages 18-25 in the Heartland of the United States conceptualize and experience civic mobility in their communities.  Civic mobility describes the ways young people navigate civic life in their communities, organizations, and institutions, and is defined as the upward or downward movement of people or groups within a civic ecosystem.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Omaha", "Nebraska", "USA", "Omaha, Nebraska, USA", false, false, false, true, false, false, false, false, false, true, false, "POINT (-96.180744861 41.314776453)", "24", "16", "41" ]
+, [ "row-6f59~gkq4-nh4e", "00000000-0000-0000-AF7C-16D1663B8D3E", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Drexel University", "Ayana Allen-Handy, PhD, Drexel University, School of Education, Department of Policy, Organization, and Leadership; and Rachel Wenrick, MFA, Drexel University, College of Arts and Sciences, Writers Room", "Anti-Displacement: The Untapped Potential of University-Community Cooperative Living", "This project brings together university faculty, community residents, students, and alumni to investigate the landscape of residential displacement and affordable housing options in the rapidly gentrifying and federally designated West Philadelphia Promise Zone.", "Participatory Research", "Site Specific", [ "https://drexel.edu/soe/research/labs/joy-lab/", null ], "Philadelphia", "Pennsylvania", "USA", "Philadelphia , Pennsylvania, USA", true, true, false, false, false, false, false, false, true, false, true, "POINT (-75.168239 39.959065)", "13", "18", "10" ]
+, [ "row-6888.pcht~gxx2", "00000000-0000-0000-A4FC-E2552EF4C305", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "Case Western Reserve University", "Nicholas Cohen, MD", "Does training AmeriCorps members to serve as tobacco cessation coaches help primary care providers address tobacco use?", "As a recipient of a 2015 National Service and Civic Engagement Research Competition grant, Case Western Reserve studied an AmeriCorps program at University Hospitals of Cleveland, the largest healthcare provider in northeast Ohio and an affiliate hospital of CWRU.\n\nThrough the hospital, the program trained AmeriCorps members to serve as coaches and deliver a tobacco cessation intervention in primary care practices to patients who smoke. As part of the CNCS research grant, the university measured the impact of the coaches on providers’ likelihood to address tobacco use in visits with patients, the quit rates of smokers at six-month follow-up appointments, and revenue generated by practices that bill for referring patients to AmeriCorps service members to help quit smoking.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Cleveland", "Ohio", "USA", "Cleveland, Ohio, USA", false, false, false, false, false, true, false, false, false, false, false, "POINT (-81.857026 41.444799)", "16", "26", "9" ]
+, [ "row-hfkn_n8ef-ri36", "00000000-0000-0000-6EF4-E3B1F21D0D26", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Wisconsin Whitewater", "Jenna Cushing-Leubner, PhD, Associate Professor University of Wisconsin-Whitewater; MN Zej Zog, National Hmoob Language Teacher Coalition, Minnesota Hmong Educators Coalition", "Lub Zej Zog Hmong: Educators Coalition Project", "Hmong Language Resource Hub grew out of Hmong language, literacy, and culture teachers working together with youth, elders, artists, community members, and community organizations to create and share linguistically and culturally sustaining curriculum materials that connect school classrooms and the community.", "Participatory Research", "Site Specific", [ "https://www.hmonglanguageresourcehub.org/about", null ], "Minneapolis", "Minnesota", "USA", "Minneapolis , Minnesota, USA", true, false, true, true, false, false, true, false, true, false, false, "POINT (-93.261496 44.95623)", "28", "11", "38" ]
+, [ "row-m875_3ukn_rdq8", "00000000-0000-0000-D975-E99DB5FF5CAB", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Trustees of Indiana University", "Brad Fulton, PhD, Indiana University; and Matthew Baggetta, PhD, Indiana University", "Observing Civic Engagement & Assessing Civic Infrastructure", "This longitudinal study will examine the internal dynamics of 60 civil society organizations (CSOs) in one community, assess their impact on promoting civic engagement, and learn how CSOs can conduct their activities in ways that effectively promote civic engagement. The project aims to: 1) uncover what goes on inside CSOs; specifically with respect to participation, interaction, networking, leadership, deliberation, and decision-making and 2) show how these internal dynamics influence CSOs' effectiveness in strengthening civic infrastructure, networks, and communities.", "Traditional Research", "Site Specific", [ "https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Foce.indiana.edu%2F&data=05%7C02%7CRJohnson%40americorps.gov%7C600f52605d6f43903b0e08dc3d24a49f%7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C638452474801924662%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=PIfi%2BTSRBWLQSIQShyRLz7q5xXPcVvv8FuDtefpFvNU%3D&reserved=0", null ], "Indianapolis", "Indiana", "USA", "Indianapolis, Indiana, USA", false, true, false, false, false, false, false, false, false, true, false, "POINT (-86.1696068 39.764842)", "37", "22", "33" ]
+, [ "row-bvzy_jyz5-83nm", "00000000-0000-0000-5E7B-39FF0716D3D6", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Wisconsin-Whitewater", "Jenna Cushing-Leubner, PhD, University of Wisconsin-Whitewater", "Lub Zej Zog: Hmong Educators Coalition Project", "The Lub Zej Zog Hmong Educators Coalition will bring together PreK-16 Hmong educators, community experts, teaching artists, and Hmong youth from California, Minnesota, and Wisconsin and use participatory research to learn how community-directed designs of this coalition of PreK-16 Hmong educators strengthen civic infrastructure and increase civic engagement amongst people typically assumed to be recipients, rather than makers, of civic life and infrastructure.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Sacramento", "California", "USA", "Sacramento, California, USA", true, true, true, true, false, false, true, false, false, false, true, "POINT (-121.194031 38.635271)", "47", "25", "23" ]
+, [ "row-r88v.qfnv_qtpv", "00000000-0000-0000-4666-B2C84A34ADA1", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Wisconsin-Madison", "Michael M. Bell, PhD", "Reevaluating the Workplace-Civic Engagement Relationship", "This project leverages survey and interview data to address questions about the relationship between workplace organization and civic engagement during one’s lifetime. The team analyzes whether participatory forms of workplace organization can be a strategy to increase civic engagement.", "Traditional Research", "National", [ "https://osf.io/preprints/socarxiv/684tf", null ], "Madison", "Wisconsin", "USA", "Madison, Wisconsin, USA", false, true, false, false, false, false, false, true, false, true, false, "POINT (-89.407893 43.071851)", "2", "8", "16" ]
+, [ "row-siin~xn9k_uiw6", "00000000-0000-0000-89EB-A8601D5863F6", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Drexel University", "Ayana Allen-Handy, PhD, Drexel University; and Rachel Wenrick, Drexel University", "Arts-centered Community Action: How Public Arts Programming Strengthens Civic Infrastructure and Promotes Civic Innovation", "This intergenerational community-led participatory action research (CPAR) project examines the potential impact of public arts programming to strengthen civic engagement, civic infrastructure, and to promote community-driven civic innovation in West Philadelphia. Community residents, students, faculty, youth, writers, and artists will collectively explore how a community can leverage the arts to solve community-identified issues such as gentrification, displacement, racial injustice, and systemic inequality.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Philadelphia", "Pennsylvania", "USA", "Philadelphia , Pennsylvania, USA", true, true, false, false, false, false, false, false, true, false, true, "POINT (-75.168239 39.959065)", "13", "18", "10" ]
+, [ "row-3xg7.5hiv.5j6x", "00000000-0000-0000-6EAA-878E4DAFA4CF", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Wisconsin Whitewater", "Jenna Cushing-Leubner, PhD, Associate Professor University of Wisconsin-Whitewater; MN Zej Zog, National Hmoob Language Teacher Coalition, Minnesota Hmong Educators Coalition", "Lub Zej Zog Hmong: Educators Coalition Project", "Hmong Language Resource Hub grew out of Hmong language, literacy, and culture teachers working together with youth, elders, artists, community members, and community organizations to create and share linguistically and culturally sustaining curriculum materials that connect school classrooms and the community.", "Participatory Research", "Site Specific", [ "https://www.hmonglanguageresourcehub.org/about", null ], "Madison", "Wisconsin", "USA", "Madison, Wisconsin, USA", true, false, true, true, false, false, true, false, true, false, false, "POINT (-89.407893 43.071851)", "2", "8", "16" ]
+, [ "row-i4zq.ujqi-ikav", "00000000-0000-0000-ABDB-8BC83FD31BFF", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Seattle", "Washington", "USA", "Seattle, Washington, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-122.35214 47.694395)", "4", "2", "15" ]
+, [ "row-n8ci~wyfi_6ctx", "00000000-0000-0000-CFF3-4646D7325AA7", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Miami", "Florida", "USA", "Miami, Florida, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-80.483341245 25.581881879)", "42", "49", "28" ]
+, [ "row-4ci8~f9xv~h93t", "00000000-0000-0000-15C3-C00A113ED4C9", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Smith College", "Sam Intrator, PhD, Elizabeth A. Woodson 1922 Professor of Education & Child Study, Smith College; Denys Candy, Director, Smith College Jandon Center for Community Engagement", "Transfer and Transition – The Challenge of Sustaining Impact beyond Community-Based Youth Programs", "This project brings together college faculty and staff with community partners to investigate the obstacles and barriers young people face as they transition out of high school.", "Participatory Research", "Site Specific", [ "https://sites.smith.edu/projectsparc/", null ], "Northampton", "Massachusetts", "USA", "Northampton, Massachusetts, USA", false, false, true, true, false, false, false, true, false, false, false, "POINT (-72.6312111 42.3198686)", "30", "15", "2" ]
+, [ "row-28jd-bet6-pewq", "00000000-0000-0000-3504-BE62CE64A22F", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Boston", "Massachusetts", "USA", "Boston, Massachusetts, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-71.0727611 42.3519973)", "30", "15", "2" ]
+, [ "row-jknk~taqg-i3mb", "00000000-0000-0000-B818-18C3B9E62C16", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "University of Maine", "Jennifer Crittenden, PhD, University of Maine", "University of Maine Seniors Supplemental Study", "Building a Workforce Readiness Model for Older Adults: An Examination of the AmeriCorps Seniors Workforce Development Program:  The UMaine Center on Aging and the University of Maine Consortium for Aging Policy Research and Analysis (CAPRA) will carry out a mixed methods study of the nine inaugural programs funded across the U.S. under the Senior Workforce Development Senior Demonstration Project (SWD SDP) initiative. Using principles drawn from the Practical, Robust Implementation and Sustainability Model (PRISM) of implementation science, the research will entail annual surveys, in-depth site visit interviews and focus groups, learning community engagement, and secondary data analysis to identify the core, scalable, program elements that bolster older adult workforce development.", "Participatory Research", "National", [ "https://mainecenteronaging.umaine.edu/workforceresearch/", null ], "Orono", "Maine", "USA", "Orono, Maine, USA", false, false, true, false, false, false, false, true, true, true, false, "POINT (-68.6723489 44.896421)", "32", "4", "1" ]
+, [ "row-jp7g_qhzb~9nqi", "00000000-0000-0000-3409-BF14EDBC429F", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Wisconsin-Whitewater", "Jenna Cushing-Leubner, PhD, University of Wisconsin-Whitewater", "Lub Zej Zog: Hmong Educators Coalition Project", "The Lub Zej Zog Hmong Educators Coalition will bring together PreK-16 Hmong educators, community experts, teaching artists, and Hmong youth from California, Minnesota, and Wisconsin and use participatory research to learn how community-directed designs of this coalition of PreK-16 Hmong educators strengthen civic infrastructure and increase civic engagement amongst people typically assumed to be recipients, rather than makers, of civic life and infrastructure.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Fresno", "California", "USA", "Fresno, California, USA", true, true, true, true, false, false, true, false, false, false, true, "POINT (-119.77237 36.74773)", "47", "25", "23" ]
+, [ "row-c945_xksi-dv44", "00000000-0000-0000-6645-6A17867F9DFA", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Wisconsin-Whitewater", "Jenna Cushing-Leubner, PhD, University of Wisconsin-Whitewater", "Lub Zej Zog: Hmong Educators Coalition Project", "The Lub Zej Zog Hmong Educators Coalition will bring together PreK-16 Hmong educators, community experts, teaching artists, and Hmong youth from California, Minnesota, and Wisconsin and use participatory research to learn how community-directed designs of this coalition of PreK-16 Hmong educators strengthen civic infrastructure and increase civic engagement amongst people typically assumed to be recipients, rather than makers, of civic life and infrastructure.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Madison", "Wisconsin", "USA", "Madison, Wisconsin, USA", true, true, true, true, false, false, true, false, false, false, true, "POINT (-89.407893 43.071851)", "2", "8", "16" ]
+, [ "row-ptwy~abe6-hp6n", "00000000-0000-0000-7107-B1ECB66C51EE", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Denver", "Kimberly Bender", "Mutual Aid as a Bridge to Social Capital and Civic Engagement among Youth Experiencing Homelessness", "This study brings together the Colorado Coalition for the Homeless and the University of Denver to understand how mutual aid can support young people experiencing homelessness to build social capital and civic engagement.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Denver", "Colorado", "USA", "Denver, Colorado, USA", false, true, true, true, false, false, false, false, false, true, true, "POINT (-104.9428474 39.7484325)", "46", "32", "24" ]
+, [ "row-ubtd_wzwx_xm6r", "00000000-0000-0000-42DD-3334795F95B1", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Texas at Austin", "Pamela Paxton, PhD", "Nonprofits, Civic Infrastructure, and Health and Well-Being", "This project will create a database including thousands of measures of nonprofit finances, expenditures, mission, capacity, and leadership. It will also create county- and city-level measures of civic infrastructure such as volunteerism and nonprofit capacity.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Austin", "Texas", "USA", "Austin, Texas, USA", false, false, false, false, false, false, false, false, false, false, false, "POINT (-97.711578 30.345445)", "8", "41", "13" ]
+, [ "row-xikm~b7q3~b6hp", "00000000-0000-0000-D61C-D2A0E3C4DC03", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Baltimore", "Maryland", "USA", "Baltimore, Maryland , USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-76.617606 39.302352)", "31", "31", "18" ]
+, [ "row-m4q5~d325~9bup", "00000000-0000-0000-3B48-41BA5DE8A3A0", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Tufts University", "Penn Loh, MSc, Tufts University", "Impact of COVID-era Mutual Aid Initiatives on Civic Infrastructure in Metro-Boston", "This study explores how mutual aid has impacted the civic infrastructure in the East Boston, a working-class community with a large concentration of Latinx immigrants and other people of color. The study brings together 4 to 6 groups active in mutual aid and asks how these efforts affected existing groups in terms of engagement methods, organizational infrastructure, and volunteers, as well as the opportunities and challenges for sustaining mutual aid and strengthening long-term civic infrastructure as COVID enters its next phase?", "Participatory Research", "Site Specific", [ "https://pennloh-practical.vision/2022/11/03/new-report-how-community-responses-to-covid-in-the-boston-area-are-building-new-infrastructures-of-care-and-community-engagement/", null ], "Medford", "Massachusetts", "USA", "Medford, Massachusetts, USA", false, true, false, false, false, false, true, false, false, true, true, "POINT (-71.108505563 42.429316999)", "30", "15", "2" ]
+, [ "row-7gq8~9vhi-hiyy", "00000000-0000-0000-0546-68682002BE61", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Cincinnati", "Anjali Dutt, PhD, and Farrah Jacquez, PhD, University of Cincinnati, Department of Psychology", "Civic Action for Refugee Empowerment in Cincinnati (CARE Cincinnati)", "This project brings together researchers, refugees, and community partners to explore strengths in the Cincinnati refugee community that can be harnessed to actualize community identified goals and identify empowering changes to promote civic engagement.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Cincinnati", "Ohio", "USA", "Cincinnati, Ohio, USA", false, false, false, false, false, false, true, false, false, true, true, "POINT (-84.351135979 39.28838645)", "16", "26", "9" ]
+, [ "row-vqrg-xxrr.u2sp", "00000000-0000-0000-83E0-71CA049DBF03", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Maine", "Jennifer Crittenden, PhD, University of Maine", "The Future of Virtual Volunteerism Among Older Adults in a Post-Pandemic World: Is the Volunteer Sector Ready?", "Volunteering supports positive health, well-being, and increased socialization for older adults. The COVID-19 pandemic has increased health and isolation risks while limiting traditional on-site volunteer placements. Virtual volunteer (VV) strategies have quickly developed to fill the gap in volunteerism opportunities. This research will explore the opportunities, and challenges of VV from volunteer and host program/site perspectives. This study also aims to identify the range of benefits and configurations, like VV, that make volunteering more accessible to older adult volunteers.", "Traditional Research", "National", [ "https://mainecenteronaging.umaine.edu/vvstudy/", null ], "Orono", "Maine", "USA", "Orono, Maine, USA", false, false, false, false, false, true, false, false, true, true, false, "POINT (-68.6723489 44.896421)", "32", "4", "1" ]
+, [ "row-pu46_zmkb-sz98", "00000000-0000-0000-82CA-92803F411136", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Philadelphia", "Pennsylvania", "USA", "Philadelphia , Pennsylvania, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-75.168239 39.959065)", "13", "18", "10" ]
+, [ "row-v2uu~kgku~ukm3", "00000000-0000-0000-6F5F-0DB85631FD9B", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Detroit", "Michigan", "USA", "Detroit, Michigan, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-83.048061 42.330762)", "29", "50", "3" ]
+, [ "row-mrt4-4tb2_7qat", "00000000-0000-0000-3AFC-75AA89028CC3", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Virginia Commonwealth University and Virginia Tech", "Dr. Carlin Rafie, Virginia Tech Department of Human Nutrition, Foods, and Exercise, and Extension Specialist/Virginia Cooperative Extension, and Dr. Emily Zimmerman, VCU Department of Family Medicine and Population Health and Senior Researcher/Director of Community Engaged Research and Qualitative Research at the VCU Center on Society and Health", "Participatory Action Planning to Address the Opioid Epidemic in a Rural Virginia Community", null, "Participatory Research", "Site Specific", [ "https://societyhealth.vcu.edu/work/the-projects/the-seed-method-for-stakeholder-engagement.html#gsc.tab=0", null ], "Richmond", "Virginia", "USA", "Richmond, Virginia, USA", false, false, false, false, false, true, false, false, false, false, false, "POINT (-77.448676 37.559342)", "5", "35", "50" ]
+, [ "row-mz7f.utf5-u3pm", "00000000-0000-0000-63BA-BF3B4CEAC315", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Puerto Rico at Humacao", "Carlos Vázquez Rivera, Ph.D. & Grekchy Meléndez Hernández, Psy.D.", "INARO: Montones de voluntades, transforman realidades.", "Despite the stress from Hurricanes Maria and Irma in Puerto Rico, the disasters resulted in a greater sense of community and appreciation. This project brings together university faculty, community members, and students to explore the community characteristics that promote or inhibit civic engagement and community cohesion.", "Participatory Research", "Site Specific", [ "https://www.facebook.com/proyectoinaro", null ], "Humacao", "Puerto Rico", "USA", "Humacao, Puerto Rico, USA", false, true, true, true, true, false, false, false, false, false, false, "POINT (-65.819104 18.148746)", null, null, "17" ]
+, [ "row-6ea5.wnnw-j3dm", "00000000-0000-0000-B537-16929DDA2A7D", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "San Jose", "California", "USA", "San Jose , California, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-121.89496 37.33939)", "47", "25", "23" ]
+, [ "row-fjre-vvxx_gsid", "00000000-0000-0000-2013-53466A6E8734", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Arizona State University", "Mark Hager, PhD, Arizona State University; and Faiza Venzant, Executive Director, Council for Certification in Volunteer Administration", "Assessing Diversity and Equity in Volunteer Inclusion", "This research considers how volunteer management practices regarding diversity, equity, and inclusion might impinge on the experience of individual volunteers. The study will survey a sample of certified volunteer administrators in the US and query the practices and policies, and characteristics and attitudes of volunteer administrators regarding diversity and inclusion. It will also use focus groups to understand the key issues and barriers to enhancing inclusion in their organizations.", "Traditional Research", "National", [ "https://cvacert.org/adevi/", null ], "Phoenix", "Arizona", "USA", "Phoenix, Arizona, USA", false, false, false, false, false, false, false, false, false, true, true, "POINT (-112.064269 33.613382)", "49", "37", "21" ]
+, [ "row-awrn~wscp.wyg5", "00000000-0000-0000-1984-3753C7B0BB98", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Fielding Graduate University", "David Blake Willis, PhD, Fielding Graduate University, School for Leadership Studies; K. Melchor Hall, PhD, Fielding Graduate University, School for Leadership Studies", "Leading from the Roots: U.S. Community Based Folk Schools Inspiring Social Action", "Fielding Graduate University, Folk School Alliance, and Highlander Research and Education Center’s Education Team partnered to examine the impact of new US-based folk schools across the United States. Nine folk schools in eight states engaged in Participatory Action Research projects.", "Participatory Research", "Site Specific", [ "https://folkschoolalliance.org/Projects", null ], "Santa Barbara", "California", "USA", "Santa Barbara, California, USA", true, false, true, true, false, false, false, false, false, true, false, "POINT (-119.698902 34.421578)", "47", "25", "23" ]
+, [ "row-2wth.ypv7~74ad", "00000000-0000-0000-5B3E-66ED17C0F931", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "Virginia Commonwealth University", "Dr. Emily Zimmerman", "Resident leadership and local capacity building: Volunteerism in disadvantaged communities", "This study aims to contribute to knowledge about the processes and impact of volunteering by examining the characteristics of neighborhood‐based and regional volunteers and organizations in Richmond, Virginia’s East End neighborhood. The project will be co‐led by an academic research team at Virginia Commonwealth University and Engaging Richmond, a community‐university partnership, using a community‐based, participatory research framework. RVA Engage, a local coalition addressing regional volunteerism, will serve as the project steering committee. Research questions focus on how the personal characteristics and volunteer activities of neighborhood‐based and regional volunteers differ; whether there is synergy between the efforts of neighborhood‐based and regional volunteers and organizations; and how regional volunteers and organizations maximize collaboration with neighborhood‐based volunteers, leaders, and organizations. We will identify best practices for regional volunteers and organizations working in economically disadvantaged communities. We will conduct a mixed‐methods study with 50 semi‐standardized, in‐depth interviews with volunteers living in Richmond’s East End and those living in other communities, volunteer coordinators, and local leaders on volunteerism. We will also conduct an online surveys with eligible volunteers (e.g., age 18 and over who have volunteered in the East End in the past 24 months) from organizations in the East End and regional organizations. The study partners will collaborate to disseminate findings, including presentations to community partners and other community stakeholders, national conferences, and publication in appropriate print/web outlets.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Richmond", "Virginia", "USA", "Richmond, Virginia, USA", false, true, false, false, false, true, false, false, false, false, false, "POINT (-77.448676 37.559342)", "5", "35", "50" ]
+, [ "row-7jvj~rpd9.mvau", "00000000-0000-0000-2EEE-F0976C1C3600", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "University of Texas at Austin", "Pamela Paxton, PhD, University of Texas at Austin, Department of Sociology, University of Texas at Austin Population Center", "University of Texas at Austin Seniors Supplemental Study", "This research will look at the potential ancillary benefits to AmeriCorps Seniors presence in communities. To understand these benefits we will work with ACS to acquire station names, locations, number of volunteers, and focus area (e.g., disaster, education, etc.). We will link these data to external sources of data on communities and conduct extensive analysis. A few possible examples include: (1) civic engagement through the new Social Capital Atlas; (2) health outcomes (including senior-specific health outcomes) through the Center for Disease Control’s PLACES data; (3) student educational achievement data from the Stanford Education Data Archive; or (4) poverty data from the Census.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation", null ], "Austin", "Texas", "USA", "Austin, Texas, USA", false, false, false, false, false, true, false, false, true, true, false, "POINT (-97.711578 30.345445)", "8", "41", "13" ]
+, [ "row-sv89~9zn6-nm3e", "00000000-0000-0000-082A-AE0C0035CA51", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Virginia Tech - Virginia Polytechnic Institute and State University", "Carlin Rafie, PhD, Virginia Tech; and Emily Zimmerman, PhD, Virginia Commonwealth University", "Scaling Up Participatory Action Planning _SEED", "This project will evaluate the participatory process, known as the SEED Method for Question Development and Prioritization, used by 3 projects in rural Virginia counties addressing local opioid misuse. Participatory research will engage residents and local stakeholders to understand the factors that facilitate or hinder community efforts to reduce opioid misuse, and to develop a community-driven action plan. The evaluation will measure the extent to which the SEED process helps build networks and relationships with organizations, institutions, and decision makers to strengthen civic infrastructure.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Blacksburg", "Virginia", "USA", "Blacksburg, Virginia, USA", false, true, false, false, false, true, false, false, false, false, false, "POINT (-80.434958 37.286706)", "5", "35", "50" ]
+, [ "row-usea-d5zw_4rz2", "00000000-0000-0000-EE0A-E00460D68436", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Pittsburgh", "Dr. Mary Ohmer, Associate Professor, School of Social Work, University of Pittsburgh and Dr. Jason Beery, Director of Applied Research, UrbanKind Institute", "Research for Equity and Power", "This project engages residents as leaders in understanding and acting on the local definition of civic engagement and the community's desire to strategically foster equitable development. The University of Pittsburgh and HCV are exploring what the community considers civic engagement, development, and equity.", "Participatory Research", "Site Specific", [ "https://www.canva.com/design/DADmZ_Qp9rk/Gy5-ULHasxMhkgley5_zCQ/view?utm_content=DADmZ_Qp9rk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#1", null ], "Pittsburgh", "Pennsylvania", "USA", "Pittsburgh, Pennsylvania, USA", false, true, false, false, false, false, false, false, false, true, true, "POINT (-80.040115 40.469794)", "13", "18", "10" ]
+, [ "row-nnfe.sm9t.ep45", "00000000-0000-0000-711B-E5ADBC80B034", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Michigan", "Dr. Matthew A. Diemer", "Parental Critical Consciousness: Conceptualization, Measurement, and Links to Parental School Engagement", "Although there are decades of research noting the positive benefits of parent involvement, Black parents are often viewed as uninvolved in their children's education partly due to societal stereotypes. Using Critical Race Theory to understand how race influences Black parentsʹ participation within the public educational system, this mixed‐methods study will explore Black parentsʹ critical consciousness (CC), which can be conceptualized as an extension of civic engagement in that it encompasses the activities performed to benefit the academic success of their children and other children within their community. To explore these open questions, qualitative interviews will be conducted with approximately 20 Black parents in Southeastern Michigan. The main research question motivating this study is: how do Black parentsʹ critical analysis of social and educational inequities influence their motivations to interact with their children's school? These data will be analyzed using inductive and iterative approaches. Themes from the qualitative data will be used to develop an instrument to measure parental CC. The proposed scale will be sent to a separate sample of parent participants to perform exploratory factor analyses and confirmatory factor analyses.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Ann Arbor", "Michigan", "USA", "Ann Arbor, Michigan, USA", false, true, true, true, false, false, false, false, false, false, true, "POINT (-83.73605 42.27587)", "29", "50", "3" ]
+, [ "row-723d_pp4x~b78e", "00000000-0000-0000-E9A9-AA8BA80ABBA1", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Mississippi State University", "Carol Cutler White, PhD, Mississippi State University; and Stephanie King, PhD, Mississippi State University", "Democracy's colleges: Expanding civic Engagement, volunteering, and national service", "Community colleges as institutions of higher education are underrepresented in the literature on civic engagement and volunteering. Using a mixed method research design, this study examines the relationship between community college attendance/credential completion, employment and civic engagement/volunteering outcomes, how civic engagement opportunity varies by community college type and geography across the U.S., how AmeriCorps engages with community colleges in recruitment and placement, and the appropriate stipend level needed for community college AmeriCorps members in Mississippi.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Starkville", "Mississippi", "USA", "Starkville, Mississippi, USA", false, false, true, false, false, false, false, true, false, true, true, "POINT (-88.810893 33.463532)", "27", "44", "39" ]
+, [ "row-fhry~qyxe-rnpb", "00000000-0000-0000-CE77-A5B3DBF6797B", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "Trustees of Indiana University", "Una Osili, PhD; Sara Konrath, PhD", "Effects of Volunteering on Economic Outcomes: A Longitudinal Study", "This project examines whether volunteering during adolescence can increase the likelihood of productive activity during early adulthood, especially among socially and/or economically disadvantaged youth. It suggests volunteering provides access to job and educational opportunities through social networks and improved health, reducing economic and social inequality.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles#:~:text=Trustees%20of%20Indiana%20University%20%2D%20Effects%20of%20Volunteering%20on%20Economic%20Outcomes", null ], "Bloomington", "Indiana", "USA", "Bloomington, Indiana, USA", false, false, false, true, false, false, false, false, false, true, true, "POINT (-86.5177573 39.1715052)", "37", "22", "33" ]
+, [ "row-97uq.5nfz.ujuw", "00000000-0000-0000-4D58-0773E468F88A", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Seattle", "Washington", "USA", "Seattle, Washington, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-122.35214 47.694395)", "4", "2", "15" ]
+, [ "row-abdr.fsd5_jfjx", "00000000-0000-0000-A152-3C95C1218849", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Wisconsin-Whitewater", "Jenna Cushing-Leubner, PhD, University of Wisconsin-Whitewater", "Lub Zej Zog: Hmong Educators Coalition Project", "The Lub Zej Zog Hmong Educators Coalition will bring together PreK-16 Hmong educators, community experts, teaching artists, and Hmong youth from California, Minnesota, and Wisconsin and use participatory research to learn how community-directed designs of this coalition of PreK-16 Hmong educators strengthen civic infrastructure and increase civic engagement amongst people typically assumed to be recipients, rather than makers, of civic life and infrastructure.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Minneapolis", "Minnesota", "USA", "Minneapolis , Minnesota, USA", true, true, true, true, false, false, true, false, false, false, true, "POINT (-93.261496 44.95623)", "28", "11", "38" ]
+, [ "row-36j2~dpsg_u2eg", "00000000-0000-0000-510C-52B9F0C15E16", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Boston", "Massachusetts", "USA", "Boston, Massachusetts, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-71.0727611 42.3519973)", "30", "15", "2" ]
+, [ "row-vhqm-9xef_km37", "00000000-0000-0000-B0FA-878663691D94", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Detroit", "Michigan", "USA", "Detroit, Michigan, USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-83.048061 42.330762)", "29", "50", "3" ]
+, [ "row-rt5v-88h2~k9n3", "00000000-0000-0000-08DF-99BECA6F9E53", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Tufts University", "Penn Loh, Tufts University, Senior Lecturer and Director of Community Practice, Department of Urban & Environmental Policy & Planning", "From Civic Participation to Community Control: Assessing and Strengthening Participatory Planning for Commercial District Development in Boston’s Dudley Neighborhood", "This project explores how civic engagement can strengthen community capacity for control over land use and economic development in Boston’s Dudley neighborhood, where poverty and high unemployment and underemployment persist.", "Participatory Research", "Site Specific", [ "https://sites.tufts.edu/uit/", null ], "Medford", "Massachusetts", "USA", "Medford, Massachusetts, USA", false, true, false, false, false, false, false, true, false, true, true, "POINT (-71.108505563 42.429316999)", "30", "15", "2" ]
+, [ "row-7747~3e8y~jq3x", "00000000-0000-0000-615F-D64D7C483CB1", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Mississippi State University", "Carol Cutler White, PhD, Mississippi State University, Department of Educational Leadership", "Voices of Hidden Figures in the Quest to Increase Postsecondary Access and Success through Civic Engagement", "This project empowered community members to launch the Greenville College Access Network (Greenville CAN) in 2021 in Greenville, MS, the heart of the Mississippi Delta.  Greenville CAN establishes a community wide college-going culture addressing equity and poverty through civic engagement.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Starkville", "Mississippi", "USA", "Starkville, Mississippi, USA", false, false, true, true, false, false, false, false, false, true, false, "POINT (-88.810893 33.463532)", "27", "44", "39" ]
+, [ "row-mhd7~fxqy~nrxg", "00000000-0000-0000-D28F-96149CFD2AB0", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Georgia", "Rebecca Nesbit, PhD, University of Georgia; and Laurie E. Paarlberg, PhD, Indiana University, Lily School of Philanthropy", "Examining the Influence of Civic Infrastructure on Rural/Urban Volunteering and Civic Engagement", "Shifting socio-demographic characteristics of communities and increasing disparities between rural and urban communities begs the question about how a community's institutional civic infrastructure (e.g. nonprofits, voluntary associations, philanthropic foundations) influences volunteering and other civic behaviors, particularly across rural and urban communities. This project explores this question using the confidential Current Population Survey (CPS) Volunteering Supplement, merged with county-level administrative records describing the local civic infrastructure (e.g. number of nonprofits, presence of community foundations).", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Athens", "Georgia", "USA", "Athens, Georgia, USA", false, true, false, false, false, false, false, false, false, true, true, "POINT (-83.37794 33.96095)", "41", "45", "29" ]
+, [ "row-f8fe_e8gq~3sz3", "00000000-0000-0000-C11F-A23690D7EC21", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "Arizona State University", "Mark Hager, PhD, Arizona State University", "Volunteer Management Capacity II: The State of the Art of Nonprofit Volunteer Administration", "This project leverages survey and interview data to address questions about the relationship between workplace organization and civic engagement during one’s lifetime. The team analyzes whether participatory forms of workplace organization can be a strategy to increase civic engagement.", "Traditional Research", "National", [ "https://volunteeralive.org/volunteer_management_capacity.php", null ], "Tempe", "Arizona", "USA", "Tempe, Arizona, USA", false, false, false, false, false, false, false, false, false, true, false, "POINT (-111.89681 33.37227)", "49", "37", "21" ]
+, [ "row-b8hq_5cbn.cqdw", "00000000-0000-0000-4C45-649834AFF544", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of California Los Angeles", "Laura Wray-Wake, PhD, University of California Los Angeles", "Examining Today's Young Social Change Agents and Their Opportunities", "To fully understand adolescents and young adults work to create a more just and equitable society, this research will document the civic agency, knowledge, actions, and purpose of young social change agents; how these civic engagement dimensions develop for youth of different gender, racial and ethnic, and sexual identities; and how they are sustained over time by opportunities and experiences. This research will inform scholarship on youth civic engagement, and seek to influence training and supports to sustain the civic engagement of young social change agents.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Los Angeles", "California", "USA", "Los Angeles, California, USA", false, false, true, true, false, false, false, false, false, true, true, "POINT (-118.433957 34.054017)", "47", "25", "23" ]
+, [ "row-cvt6.2cgv.bmys", "00000000-0000-0000-3366-E1BE68B52B79", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Carleton College", "Anita Chikkatur, PhD, Carleton College", "Using Youth Participatory Action Research (YPAR) insights to transform school policies & practices", "This study will work with five community partners in rural and urban areas using youth participatory action research (YPAR) methodology. The study will investigate how youth and supportive adults can push for changes in their own schools, districts, and communities by connecting insights from youth research to professional development for educators, and by having youth representation in decision-making structures.", "Participatory Research", "Site Specific", [ "https://participatoryactionresearch.sites.carleton.edu/2022-americorps-ypar-grant/", null ], "Northfield", "Minnesota", "USA", "Northfield, Minnesota, USA", false, true, true, true, false, false, false, false, false, false, true, "POINT (-93.154935 44.472977)", "28", "11", "38" ]
+, [ "row-utvp_7y5w.rkcx", "00000000-0000-0000-CBCE-3E14D42825A1", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "George Mason University", "Dr. Jim Witte", "Are economic opportunity and success for immigrants tied to higher levels of social capital, civic engagement, and volunteering?", "In an effort to develop innovative research methods for application to national service models, CNCS awarded the IIR a 2015 National Service and Civic Engagement Research Competition grant to research the economic benefits of national service, volunteering, and civic engagement. Specifically, the study examines the complex and dynamic relationship between professional success and civic engagement among educated immigrant professionals. Quantitative analysis of survey data collected across seven U.S. cities examined how volunteering translates into greater employment and earnings  A supplemental grant provided additional support to the study, while also integrating address-level IRS data on nonprofits with the study’s survey data and data from the U.S. Census Bureau.", "Traditional Research", "Site Specific", [ "https://iir.gmu.edu/articles/8841", null ], "Washington", "District of Columbia", "USA", "Washington, District of Columbia , USA", false, true, false, false, false, false, true, false, false, false, true, "POINT (-77.05595496 38.881381275)", "43", "28", "27" ]
+, [ "row-sbmy.zrr9.36ap", "00000000-0000-0000-1721-D940E38DAE76", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "Trustees of Indiana University", "Matthew Baggetta, PhD", "Observing Civic Engagement & Assessing Civic Infrastructure", "This project uses an innovative data collection technique – systematic social observation – to analyze the internal dynamics of civil society organizations and how they affect an organization’s outcome.", "Traditional Research", "Site Specific", [ "https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Foce.indiana.edu%2F&data=05%7C02%7CRJohnson%40americorps.gov%7C600f52605d6f43903b0e08dc3d24a49f%7Cd2f850a78dce4fb3a79c6867f9514312%7C0%7C0%7C638452474801924662%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=PIfi%2BTSRBWLQSIQShyRLz7q5xXPcVvv8FuDtefpFvNU%3D&reserved=0", null ], "Indianapolis", "Indiana", "USA", "Indianapolis, Indiana, USA", false, false, false, false, false, false, false, false, false, true, false, "POINT (-86.1696068 39.764842)", "37", "22", "33" ]
+, [ "row-43df~iaei_hn3w", "00000000-0000-0000-0510-40E984A84CCD", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "Carleton College", "Anita Chikkatur, Associate Professor, Department of Educational Studies, Carleton College, and Emily Oliver, MFA, Associate Director, Director of the Center for Community and Civic Engagement, Carleton College", "Participatory Action Research on Rural Secondary Education: Experiences of Diverse Students, Parents, and Teachers", "This project facilitates conversations about race, gender, class, and privilege between Latinx and Somali high school students, their parents, and white teachers within the Faribault school system.", "Participatory Research", "Site Specific", [ "https://participatoryactionresearch.sites.carleton.edu/carleton-faribault-par-collaboration-2/", null ], "Faribault", "Minnesota", "USA", "Faribault, Minnesota, USA", false, false, true, true, false, false, true, false, false, false, true, "POINT (-93.310995 44.324016)", "28", "11", "38" ]
+, [ "row-qr5p-st7s.psn3", "00000000-0000-0000-733E-13F2C6437285", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "University of Texas at Austin", "Pamela Paxton, PhD, University of Texas at Austin, Department of Sociology, University of Texas at Austin Population Center", "How Nonprofits Create Civic Infrastructure", "This research will explore how, when, and why nonprofits undertake work that strengthens communities, including when nonprofits begin to tackle a community problem, how they approach community problems like violence, and whether bottom-up or top-down pressures lead nonprofits to become more inclusive in their work. This project will create a 25-year longitudinal database of multiple measures of nonprofit finances, expenditures, mission, capacity, and leadership over the period 1998-2022, leading to increased understanding of how nonprofits strengthen communities and support civic infrastructure.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Austin", "Texas", "USA", "Austin, Texas, USA", false, true, false, false, false, false, false, false, false, true, false, "POINT (-97.711578 30.345445)", "8", "41", "13" ]
+, [ "row-2b2i-acds-95m2", "00000000-0000-0000-B9E1-20FD71183CFE", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Wisconsin Whitewater", "Jenna Cushing-Leubner, PhD, Associate Professor University of Wisconsin-Whitewater; MN Zej Zog, National Hmoob Language Teacher Coalition, Minnesota Hmong Educators Coalition", "Lub Zej Zog Hmong: Educators Coalition Project", "Hmong Language Resource Hub grew out of Hmong language, literacy, and culture teachers working together with youth, elders, artists, community members, and community organizations to create and share linguistically and culturally sustaining curriculum materials that connect school classrooms and the community.", "Participatory Research", "Site Specific", [ "https://www.hmonglanguageresourcehub.org/about", null ], "Fresno", "California", "USA", "Fresno, California, USA", true, false, true, true, false, false, true, false, true, false, false, "POINT (-119.77237 36.74773)", "47", "25", "23" ]
+, [ "row-acar-5r3h_kkhe", "00000000-0000-0000-1624-3ED51684E75E", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "Smith College", "Sam Intrator, PhD, Smith College; and Graeham Dodd, Ed.S., Smith College", "Young People as Teachers", "Programs that position young people as teachers (YPAT) are a promising and growing approach to supporting young adult development. YPAT programs provide opportunities for young people to learn about themselves while actively contributing to their communities. This mixed methods study will begin with a field scan of YPAT programs and then employ surveys and focus groups to investigate the extent to which serving as a teacher develops identity, agency and civic commitment, processes that Scales (2016) identifies as integral to young adult development.", "Participatory Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Northampton", "Massachusetts", "USA", "Northampton, Massachusetts, USA", false, false, true, true, false, false, false, false, false, true, false, "POINT (-72.6312111 42.3198686)", "30", "15", "2" ]
+, [ "row-fdj6-ywmh~d5ic", "00000000-0000-0000-9484-A10FD0CC95B2", 0, 1716399866, null, 1716399870, null, "{ }", "2023", "Virginia Tech - Virginia Polytechnic Institute and State University", "Carlin Rafie, PhD, Virginia Tech; and Emily Zimmerman, PhD, Virginia Commonwealth University", "Virginia Tech - Virginia Polytechnic Institute and State University Seniors Supplemental Study", "VCU and Virginia Tech will collaborate with Serve Virginia to implement a PhotoVoice project with AmeriCorps Seniors and AmeriCorps State and National service members in Virginia. This includes PhotoVoice training and projects that highlight the diversity of members as well as their varied motivations, experiences, and impact. We will produce a training manual that will allow for scaling the project in Virginia and nationally. We will work with AmeriCorps Seniors to integrate the results with social media outreach.", "Participatory Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation", null ], "Blacksburg", "Virginia", "USA", "Blacksburg, Virginia, USA", true, false, false, false, false, false, false, false, true, false, false, "POINT (-80.434958 37.286706)", "5", "35", "50" ]
+, [ "row-927v-3he2_i7rf", "00000000-0000-0000-191D-844801B418CC", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "University of Texas at Austin", "Dr. Pamela Paxton", "Can social media and other digital media data be used to measure subjective well-being?", "Through its 2015 National Service and Civic Engagement Research Competition grant, UT Austin used the Confirmatory Factor Analysis measurement technique to create a new multiple-indicator, county-level measure of social capital. Then, using cross-lagged panel models, researchers are relating aspects of social capital and community engagement to various outcomes such as well-being and self-reported health. As a result of this research, UT Austin has drafted several papers to evaluate declines in social capital, explore connections between nonprofits and engagement, and investigate how the presence of AmeriCorps programs affects measures of subjective well-being.", "Traditional Research", "National", [ "https://americorps.gov/sites/default/files/document/CNCSResearchEvidenceWebinar_UTAustin_2017.pdf", null ], "Austin", "Texas", "USA", "Austin, Texas, USA", false, false, false, false, false, true, false, false, false, true, true, "POINT (-97.711578 30.345445)", "8", "41", "13" ]
+, [ "row-26xh-krv6-nyaz", "00000000-0000-0000-5C4F-2375FD2069EB", 0, 1716399866, null, 1716399870, null, "{ }", "2018", "University of Nevada", "Jennifer Willett, PhD, University of Nevada, Reno, School of Social Work", "Making the Invisible Visible with Photovoice: Addressing Slow Violence through Community-Based Participatory Research and Civic Engagement with Youth in Nevada", "This project empowers high school students from Title 1 schools to serve as co-researchers along with a professor and local partners. The research aims to understand and resolve complex problems arising from environmental injustices and climate change.", "Participatory Research", "Site Specific", [ "https://researchforchangen.wixsite.com/researchforchangenv", null ], "Reno", "Nevada", "USA", "Reno, Nevada, USA", false, false, true, true, true, false, false, false, false, false, false, "POINT (-119.772455 39.512702)", "23", "23", "5" ]
+, [ "row-gtsi_9ai8~v5wb", "00000000-0000-0000-1753-7E7C666CA6DB", 0, 1716399866, null, 1716399870, null, "{ }", "2022", "George Mason University", "James Witte, PhD, George Mason University; and Marissa Kiss, George Mason University", "Immigrants, Athletes, and Engagement", "This study will examine the degree to which immigrant athletes use their visibility, acceptance, and influence to extend the spirit of inclusiveness and equity to all New Americans. More specifically, we aim to determine if contact and engagement with immigrant athletes fosters more positive attitudes towards immigrants off the playing field.", "Traditional Research", "Site Specific", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "San Jose", "California", "USA", "San Jose, California, USA", true, false, false, false, false, false, true, false, false, false, true, "POINT (-121.89496 37.33939)", "47", "25", "23" ]
+, [ "row-47pv_75ss_3w49", "00000000-0000-0000-3531-DD96E9B842FE", 0, 1716399866, null, 1716399870, null, "{ }", "2015", "Arizona State University", "Morrison Institute", "What are the employment outcomes of AmeriCorps Alumni?", "As a 2015 National Service and Civic Engagement Competition grantee through CNCS, Morrison Institute is conducting follow-up research on a pilot study to better understand the employability and employment outcomes of AmeriCorps members. The follow-up study expands a previous analysis of Arizona’s AmeriCorps programs to five states across the country: Massachusetts, Minnesota, Nevada, Tennessee, and Washington. Using a mixed? methods research and evaluation design that includes 367 phone surveys, 15 focus groups with AmeriCorps alumni and supervisors, and eight interviews with AmeriCorps State Commissioners, the study examines the personal and professional networks emerging within the AmeriCorps program, which can lead to positive employment outcomes.", "Traditional Research", "National", [ "https://americorps.gov/grantees-sponsors/research-evaluation/grantee-profiles", null ], "Phoenix", "Arizona", "USA", "Phoenix, Arizona, USA", false, false, false, false, false, false, false, true, false, true, false, "POINT (-112.064269 33.613382)", "49", "37", "21" ]
+, [ "row-ygz5-9rem_qh9f", "00000000-0000-0000-2999-03FCE942400B", 0, 1716399866, null, 1716399870, null, "{ }", "2017", "University of Maine", "Jennifer Crittenden", "Juggling Multiple Roles: An Examination of Role Conflict", "This project utilizes a national sample of AmeriCorps Seniors Retired Senior Volunteer Program volunteers and program sites to study how older adult volunteers experience role conflict between their volunteer role and other social roles and how volunteer programs can help.", "Traditional Research", "National", [ "https://mainecenteronaging.umaine.edu/older-adult-volunteer-study/", null ], "Orono", "Maine", "USA", "Orono, Maine, USA", false, true, false, false, false, false, false, false, true, true, false, "POINT (-68.6723489 44.896421)", "32", "4", "1" ]
+ ]
+}
