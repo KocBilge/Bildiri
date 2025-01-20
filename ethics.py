@@ -31,7 +31,7 @@ try:
 
     # Sınıf dengesizliği analizi
     print("Sınıf dağılımı:")
-    print(bias_train_df['label'].value_counts())
+    print(bias_train_df['profession'].value_counts())
 
     # Transformer tabanlı model ile değerlendirme
     print("Transformer tabanlı model yükleniyor...")
@@ -40,7 +40,7 @@ try:
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 
     # Örnek metinlerin etik değerlendirmesi
-    texts = bias_train_df['sentence'][:10].tolist()
+    texts = bias_train_df['profession'][:10].tolist()
     inputs = tokenizer(texts, return_tensors="pt", truncation=True, padding=True, max_length=512)
     outputs = model(**inputs)
     predictions = torch.argmax(outputs.logits, dim=-1).tolist()
